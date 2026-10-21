@@ -52,7 +52,7 @@ The TV app includes Orbit's download service and can start it through a compatib
 
 Open Orbit from your Games row and use the controller to browse, explore and choose a download. The native app shares your catalogue, favourites and download queue with the browser version.
 
-*Discover previews the 1.3.0 catalogue in the Store interface. Game details and download options show 1.2.0, and Browse shows the native app from 1.1.0. These previews are rendered locally; other screenshots show existing workflows with illustrative storage and download values.*
+*Discover previews the current catalogue in the Store interface with Cricket 24 selected. Game details and download options show 1.2.0, and Browse shows the native app from 1.1.0. These previews are rendered locally; other screenshots show existing workflows with illustrative storage and download values.*
 
 ### Discover, browse and choose a download
 
@@ -60,7 +60,7 @@ Open Orbit from your Games row and use the controller to browse, explore and cho
 
 **Store (default)**
 
-![Orbit Store 1.3.0 Discover with Uncharted 4 selected](assets/1.3.0/store-discover-uncharted.png)
+![Orbit Store Discover with Cricket 24 selected and Persona 5 Royal sixth in New on Orbit](assets/1.3.5/store-discover-cricket-24.png)
 
 **Keep exploring.** All games gives each title its own tile. Move through the grid with your controller; more games appear as you keep scrolling.
 
