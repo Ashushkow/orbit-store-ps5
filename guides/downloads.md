@@ -1,6 +1,6 @@
 # Find and download a game
 
-Orbit 1.3.5 includes **1,598 games: 998 PS5 games and 600 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Each platform edition has its own game page; open it to choose from its available sources and formats. The selection depends on which sources you enable.
+Orbit’s current catalogue includes **1,678 games: 1,078 PS5 games and 600 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Each platform edition has its own game page; open it to choose from its available sources and formats. The selection depends on which sources you enable.
 
 ## Browse and choose
 
