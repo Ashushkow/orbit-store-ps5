@@ -1,6 +1,6 @@
 # Orbit Zero
 
-Orbit Zero downloads on your computer and transfers files to your PS5 over the local network. For uncompressed files, the two stages overlap: completed chunks can reach the console while the computer is still downloading. ZIP, RAR and 7z archives finish downloading and extract on the computer before their files transfer. Use the desktop app, a compatible native Orbit TV app, or the local browser controls to browse and manage the queue.
+Orbit Zero can save games on your computer without a connected PS5, then send them to the console later. You can also download and transfer to a connected PS5 over the local network. For uncompressed files, the two stages overlap: completed chunks can reach the console while the computer is still downloading. ZIP, RAR and 7z archives finish downloading and extract on the computer before their files transfer. Use the desktop app, a compatible native Orbit TV app, or the local browser controls to browse and manage the queue.
 
 Download the desktop app and matching PS5 files from [Orbit Store releases](https://github.com/saawant12/orbit-store-ps5/releases/latest). PS4 browsing and desktop language selection require Orbit Zero 1.1.0 or later. For a console without internet, follow the [offline PS5 setup guide](orbit-zero-offline-ps5.md).
 
@@ -14,10 +14,14 @@ The full-screen screenshots show the desktop interface. Connection, storage and 
 
 ## What you need
 
-- A computer with internet access and enough free space to cache the full download, plus writable storage on the PS5.
+- A computer with internet access and enough free space for the download and any extracted files.
+
+For transfers to PS5, you also need:
+
+- Writable storage on the PS5.
 - A PS5 with its jailbreak and Payload Manager or a compatible ELF loader already running, or the matching Orbit receiver already started. Zero does not jailbreak the console.
 - Both devices on the same reachable home network. Wi-Fi, Ethernet, or a mixture of both work. Use the PS5's local IPv4 address.
-- Orbit Zero and its included Orbit Store 1.3.5 service. For native TV controls, install the matching FFPKG from the same release.
+- Orbit Zero and its included Orbit Store 1.4.0 service. For native TV controls, install the matching FFPKG from the same release.
 
 Downloads are available for **ARM64 and x64 on macOS, Windows and Linux**; 32-bit x86 is not supported. Mac builds use Developer ID signing but are not notarized; Windows and Linux packages are unsigned. The interface supports English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish. In Store, select the globe-shaped **Language** button in the top bar; in the other interfaces, open **Settings → Language**. Choose a language or leave **System language** selected.
 
@@ -27,9 +31,16 @@ Follow the [macOS, Windows and Linux installation guide](orbit-zero-installation
 
 ## Choose your interface
 
-Orbit Zero 1.3.5 offers **Store**, **Crossbar**, **Cinema** and **Panorama**. In Store, select the palette-shaped **Appearance** button in the top bar; in the other interfaces, open **Settings → Appearance**. Confirm **Keep** within 15 seconds. Your selection is saved on this computer. See the [appearance guide](appearance.md) for screenshots, motion options and navigation.
+Orbit Zero 1.4.0 offers **Store**, **Crossbar**, **Cinema** and **Panorama**. In Store, select the palette-shaped **Appearance** button in the top bar; in the other interfaces, open **Settings → Appearance**. Confirm **Keep** within 15 seconds. Your selection is saved on this computer. See the [appearance guide](appearance.md) for screenshots, motion options and navigation.
 
 In Crossbar, Cinema and Panorama, **Settings** also contains **Download settings**, **Computer cache**, **Updates** and **Language**. **Console** continues to hold the PS5 connection and download-route preference.
+
+## Download now and send to your PS5 later
+
+1. Open a game, choose its source and format, then select **Save to → This computer**. You do not need to pair a PS5 or start its Orbit service.
+2. Start the download. For Vikingfile or AkiraBox, complete verification in the provider window and wait for Orbit to capture the ready link.
+3. Follow progress in **Downloads**. Archives extract on the computer; **Show in folder** opens the saved location when ready.
+4. When you want to transfer, connect and pair your PS5 using the steps below. Select **Send to PS5** on the completed download and choose its destination drive. The saved computer copy stays in place.
 
 ## Connect the computer and console
 
@@ -60,7 +71,7 @@ Pairing is saved using the computer's encrypted credential store. Zero reconnect
 
 In the Store interface, **New on Orbit** appears first in Discover, followed by **Latest releases** and the All games grid. The other interfaces present these collections in their own layouts. In Browse, use **Platform** to choose PS4, PS5 or both. Platform editions stay separate, with their own images, release dates and download options.
 
-The current catalogue includes 618 PS4 games with single-file PKG/FPKG download options. Choose a source and PS5 destination just as you would for a PS5 game. The computer-download route also works with the PS5’s internet access blocked. Completed packages need the installation method supported by your PS5 setup; Zero does not install them. See [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
+The current catalogue includes 618 PS4 games with single-file PKG/FPKG download options. Choose a source and **This computer** or a PS5 destination just as you would for a PS5 game. The computer-download route also works with the PS5’s internet access blocked. Completed packages need the installation method supported by your PS5 setup; Zero does not install them. See [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
 
 ## Choose where downloads run
 
@@ -81,7 +92,7 @@ For compressed downloads, **Extract on computer** appears between those stages. 
 
 *Downloads in Orbit Zero. Progress and rates illustrate the two stages; they are not measured transfer results.*
 
-For Vikingfile, Zero opens a separate browser window on the computer. Complete any provider verification and select the matching file's Download button. Zero captures and checks the final file link before adding it to the queue. Provider logins stay in a separate persistent browser profile on the computer. Unwanted popups are blocked; **Back**, **Reload** and **Return to download page** let you get back to the file.
+For Vikingfile, Zero opens a separate browser window on the computer. Complete any provider verification and wait without pressing Download. Zero captures and checks the ready file link, closes its provider window and adds the download to the queue. Provider logins stay in a separate persistent browser profile on the computer. Unwanted popups are blocked; **Back**, **Reload** and **Return to download page** let you get back to the file.
 
 For **AkiraBox**, open the provider page, complete verification and wait without pressing Download. Zero captures the ready link and closes the provider window. Supported ZIP, RAR and 7z downloads extract on the computer before transfer; see [archive downloads](downloads.md#zip-rar-and-7z-downloads).
 
@@ -98,6 +109,12 @@ Open **Downloads → Download settings**, or **Settings → Download settings** 
 ## Choose the computer download folder
 
 In Console, select **Computer download folder → Choose folder**. In Downloads, open the settings icon beside the page title to find the same control. This applies to every source. New downloads use the folder you choose; existing partial files stay in their original location so they can resume.
+
+## Download recovery settings
+
+Open **Downloads → Download settings → Download recovery** to choose how often Orbit retries, how long it waits between attempts and when a slow download should reconnect. Set **Automatic retries** to **0** to turn retries off. These settings apply to computer downloads; direct PS5 downloads use the settings saved on the console. See [download recovery settings](downloads.md#download-recovery-settings).
+
+For an expired Vikingfile or AkiraBox link, select **Refresh download link**. Your PS5 can stay disconnected while Zero refreshes the computer download’s link. Zero checks that it still identifies the selected file before reusing partial data. Reconnect the PS5 when you are ready to transfer.
 
 ## Pause, reconnect and clean up
 

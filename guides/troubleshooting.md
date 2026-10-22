@@ -51,7 +51,7 @@ The replacement was saved for the next start. Open **App settings → Update / r
 
 ## AkiraBox does not enter Downloads
 
-Use the latest matching Orbit Store or Orbit Zero apps. AkiraBox requires **1.2.0 or later**. Open the file page from Orbit, complete verification and wait a few seconds without pressing Download. Orbit captures the ready link; avoid advertisements and popup buttons. If the session expires, return to Orbit and open the provider step again. For a paused or failed job, use **Refresh download link**.
+Use the latest matching Orbit Store or Orbit Zero apps. AkiraBox requires **1.2.0 or later**. Open the file page from Orbit, complete verification and wait a few seconds without pressing Download. Orbit captures the ready link; avoid advertisements and popup buttons. If the session expires, return to Orbit and open the provider step again. For a paused or failed job, use **Refresh download link**. In Zero, the PS5 can stay disconnected while you refresh a computer download’s link; reconnect it when you are ready to transfer.
 
 ## Archive.org reports HTTP 401, 403 or 404
 
@@ -63,7 +63,7 @@ Orbit automatically tries the [known source passwords](../README.md#automatic-ar
 
 ## Vikingfile does not enter Downloads
 
-Update both PS5 apps to the matching 1.3.5 release and enable Vikingfile in Sources. Select the desired option and drive, open its download page on PS5, complete verification and wait without pressing Download. Orbit captures the matching link and returns automatically. For computer downloads in Orbit Zero, complete verification and select the matching file’s Download button in its provider window. Verification happens on the PS5 even if you initiated it on your phone.
+Update both PS5 apps to the latest matching release and enable Vikingfile in Sources. Select the desired option and drive, open its download page on PS5, complete verification and wait without pressing Download. Orbit captures the matching link and returns automatically. For computer downloads in Orbit Zero 1.4.0 or later, complete verification and wait without pressing Download in its provider window too. Verification happens on the PS5 even if you initiated it on your phone.
 
 If the session times out, the provider page changes or the browser restarts, return to Orbit and try that option again. Cancel an existing session before starting another. A file that does not match the selected option is not queued. Provider links may become unavailable.
 
@@ -103,7 +103,7 @@ Keep both devices awake while transferring. See [transfer recovery and cleanup](
 
 ## I removed a download but still have its computer cache
 
-In Orbit Zero 1.3.5, open **Downloads → Recover downloads** and choose the completed `.cache` file. Keep its original name and folder. Review the matching game and destination, add it back to the queue, then select **Resume**. See [cache recovery](orbit-zero.md#recover-a-completed-computer-download) for checks and limits.
+In Orbit Zero, open **Downloads → Recover downloads** and choose the completed `.cache` file. Keep its original name and folder. Review the matching game and destination, add it back to the queue, then select **Resume**. See [cache recovery](orbit-zero.md#recover-a-completed-computer-download) for checks and limits.
 
 ## I cannot find a setting after changing interface
 

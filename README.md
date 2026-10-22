@@ -136,10 +136,11 @@ For your existing collection, the [Library guide](guides/library.md) explains in
 
 ## Orbit Zero for Mac, Windows and Linux
 
-Orbit Zero is our desktop companion for Mac, Windows and Linux. [Download Orbit Zero](https://github.com/saawant12/orbit-store-ps5/releases/latest), open **Console**, enter your PS5’s local IP address and choose **Start Orbit on PS5**.
+Orbit Zero is our desktop companion for Mac, Windows and Linux. [Download Orbit Zero](https://github.com/saawant12/orbit-store-ps5/releases/latest) to save games on your computer, even without a connected PS5. When you're ready to transfer, open **Console**, enter your PS5’s local IP address and choose **Start Orbit on PS5**.
 
-Download on your computer and transfer to your PS5 over your home network. Uncompressed files can transfer while downloading; archives finish downloading and extracting before their files transfer. **Works over your local network: Wi-Fi or Ethernet. Your PS5 does not need internet access.** Keep both devices connected to your home network while the computer handles online downloads.
+Download on your computer and transfer to your PS5 over your home network. Uncompressed files can transfer while downloading; archives finish downloading and extracting before their files transfer. **Works over your local network: Wi-Fi or Ethernet. Your PS5 does not need internet access.** Keep both devices connected to your home network while transferring to PS5.
 
+- **Download now and send to PS5 later.** Choose **Save to → This computer** to keep a game on your computer. Connect your PS5 when ready, then select **Send to PS5** in Downloads. [See the steps](guides/orbit-zero.md#download-now-and-send-to-your-ps5-later).
 - **Start Orbit from your computer.** Upload and launch the compatible payload without a separate ELF download or manual file selection. Your PS5 must already have its jailbreak and Payload Manager or an ELF loader running.
 - **Control downloads from either device.** Browse and manage the computer’s queue from the desktop or the matching native Orbit app on your PS5.
 - **Choose where downloads run.** Use **Computer** to download through your computer, or **Prefer PS5** to download directly when the console can reach the source. Save your preference once.
@@ -155,7 +156,7 @@ Download on your computer and transfer to your PS5 over your home network. Uncom
 
 ### Discover on your computer
 
-Explore PS4 and PS5 games with full artwork, featured picks in New on Orbit and a shared favourites list. Browse’s **Platform** filter lets you choose PS4, PS5 or both. Choose the source and PS5 destination before starting a download.
+Explore PS4 and PS5 games with full artwork, featured picks in New on Orbit and a shared favourites list. Browse’s **Platform** filter lets you choose PS4, PS5 or both. Choose the source and either **This computer** or a PS5 destination before starting a download.
 
 ![Orbit Zero 1.1.0 Discover with Red Dead Redemption 2, PS4 favourites and New on Orbit before Latest releases](assets/1.1.0/orbit-zero-discover.jpg)
 
@@ -171,13 +172,13 @@ The desktop app supports **ARM64 and x64** computers and the same **11 interface
 
 ## Beta status
 
-**Orbit Store is an experimental beta.** [Download the latest release](https://github.com/saawant12/orbit-store-ps5/releases/latest). The matching components in release **1.3.5** have these version numbers:
+**Orbit Store is an experimental beta.** [Download the latest release](https://github.com/saawant12/orbit-store-ps5/releases/latest). The matching components in release **1.4.0** have these version numbers:
 
 | Component | Version |
 | --- | --- |
-| Orbit Store download service and browser interface (`orbit_store.elf`) | **1.3.5** |
-| Native TV app (`PPSA99177.ffpkg`) | **1.7.0** |
-| Orbit Zero for desktop | **1.3.5** |
+| Orbit Store download service and browser interface (`orbit_store.elf`) | **1.4.0** |
+| Native TV app (`PPSA99177.ffpkg`) | **1.8.0** |
+| Orbit Zero for desktop | **1.4.0** |
 
 The TV app has its own version number; these files belong to the same release. Use matching files when updating. Keep the PS5 awake while downloading or receiving transfers.
 
@@ -304,7 +305,7 @@ Source choices are saved on the console and shared by paired devices. Turning of
 
 ### Provider download steps
 
-- **Vikingfile on PS5:** open the provider page, complete verification and **wait without pressing Download**. Orbit captures the ready link and returns to the browser or native app automatically. In **Orbit Zero**, complete verification and select the matching file’s **Download** button in the computer’s provider window.
+- **Vikingfile on PS5:** open the provider page, complete verification and **wait without pressing Download**. Orbit captures the ready link and returns to the browser or native app automatically. In **Orbit Zero 1.4.0 or later**, complete verification and wait without pressing Download in the computer’s provider window too; Zero captures the matching link and closes the window.
 - **AkiraBox:** open the provider page, complete verification and **wait without pressing Download**. Orbit captures the ready link and returns to the PS5 browser or native app automatically. Orbit Zero closes its provider window when the file is ready.
 
 On a paired phone, these steps open on the PS5. In Orbit Zero, they open on your computer. See the [full provider instructions](guides/downloads.md#akirabox-verify-then-wait).

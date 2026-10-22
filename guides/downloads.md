@@ -95,7 +95,7 @@ Orbit Zero download details show **PS5 location** and **Computer location** whil
 
 Enter your Archive.org email and password, select **Sign in**, and check that the panel shows **Signed in**. Then retry the download. The native app and browser share the PS5’s sign-in; Orbit Zero keeps a separate sign-in on the computer. If you use **Prefer PS5**, sign in on the PS5 as well for downloads routed there. Your password is not saved.
 
-The release removes 225 unavailable Archive.org options. Signing in helps with account-required files; it does not restore removed files. If the source page says the item is unavailable, choose another source or game option. You can sign out from the same account panel.
+Release 1.3.5 removed 225 unavailable Archive.org options. Signing in helps with account-required files; it does not restore removed files. If the source page says the item is unavailable, choose another source or game option. You can sign out from the same account panel.
 
 ## Optional: download through TorBox
 
@@ -112,19 +112,21 @@ The release removes 225 unavailable Archive.org options. Signing in helps with a
 
 ![Game details with TorBox selected and a PS5 destination drive](../assets/0.9.0/desktop-torbox-details.jpg)
 
+Orbit submits supported requests to TorBox without rejecting them based on its advertised file-size limit. TorBox still decides whether the request is allowed; any returned limit or account error appears in Downloads.
+
 An account connection does not guarantee support for every file. If an option is unavailable through TorBox, select the original provider explicitly. Orbit does not silently switch a TorBox job to another delivery method.
 
 Pause and resume from Downloads as usual. Disconnecting TorBox pauses its unfinished jobs and keeps their partial files. Reconnect the same account to resume them. Disconnecting does not remove files from your remote TorBox account.
 
 ### TorBox in Orbit Zero
 
-**New in 1.3.5.** Open **Downloads → Download settings → TorBox**, or **Settings → Download settings** in another desktop interface. Connect your API key on the computer, then choose **Download using → TorBox** on a supported game option. Zero downloads to the computer and transfers to your selected PS5 drive. This account connection is separate from the PS5 service’s TorBox connection. Host availability, account limits and file-size limits still apply.
+**New in 1.3.5.** Open **Downloads → Download settings → TorBox**, or **Settings → Download settings** in another desktop interface. Connect your API key on the computer, then choose **Download using → TorBox** on a supported game option. Zero downloads to the computer. Choose **This computer** to keep the game there, or a PS5 drive to transfer it. This account connection is separate from the PS5 service’s TorBox connection. Host availability, account limits and file-size limits still apply.
 
 ## AkiraBox: verify, then wait
 
 **Requires Orbit Store or Orbit Zero 1.2.0 or later, with matching PS5 apps.** Choose the AkiraBox option and destination, then open its download page from Orbit. Complete any human verification yourself and wait a few seconds. **Do not press AkiraBox’s Download button or an advertisement.** Orbit captures the ready file link and checks it against your selected game.
 
-With the matching 1.3.5 PS5 apps, Orbit captures the ready link and returns to the browser or native TV app automatically. In Orbit Zero, the provider window closes once the matching file is ready, and the download appears in your queue.
+With the current matching PS5 apps, Orbit captures the ready link and returns to the browser or native TV app automatically. In Orbit Zero, the provider window closes once the matching file is ready, and the download appears in your queue.
 
 If the session expires, start the provider step again. For an existing paused or failed AkiraBox download, use **Refresh download link**. Orbit reuses the partial file only if the refreshed link identifies the same file.
 
@@ -142,13 +144,23 @@ In Zero, the extracted computer files follow the separate **Computer cache** set
 
 Orbit Store and Orbit Zero start one game at a time by default. Choose **1–8** in Orbit Store’s **App settings → Storage → Simultaneous downloads**, or **Downloads → Download settings → Simultaneous computer downloads** in Orbit Zero. Reducing the limit lets active downloads finish before another starts. Orbit Zero transfers one file to the PS5 at a time while computer downloads continue.
 
+## Download recovery settings
+
+For PS5 downloads, open **App settings → Storage → Download recovery**. For computer downloads, use **Orbit Zero → Downloads → Download settings → Download recovery**. The computer and console keep separate settings.
+
+- **Automatic retries:** how many times Orbit tries again after a temporary failure. Choose **0–10**, or **0** to turn retries off; the default is **3**.
+- **Wait between retries:** the pause before the next attempt, **10 seconds** by default.
+- **Wait before reconnecting** and **Reconnect below this speed:** when a download stays too slow, reconnect and try again. By default, this means below **1 KiB/s** for **60 seconds**.
+
+Changes apply on the next attempt. Some providers require a longer wait. Your partial download is kept, but a deliberately paused job still needs **Resume**; retries cannot fix a removed file, an account restriction or a full drive.
+
 ## Vikingfile: open the page on PS5 first
 
-**Starting in the native TV app?** Open **Download options**, choose your source and drive, then select **Open Vikingfile on PS5**. Vikingfile opens directly in the PS5 browser. With the matching 1.3.5 PS5 apps, complete any verification and wait without pressing Download. Orbit captures the ready link and closes its provider window automatically. Orbit checks the file and queues it on your selected drive. You do not need to open Orbit's browser interface first. If the source or drive is no longer available, choose an available one explicitly.
+**Starting in the native TV app?** Open **Download options**, choose your source and drive, then select **Open Vikingfile on PS5**. Vikingfile opens directly in the PS5 browser. With the current matching PS5 apps, complete any verification and wait without pressing Download. Orbit captures the ready link and closes its provider window automatically. Orbit checks the file and queues it on your selected drive. You do not need to open Orbit's browser interface first. If the source or drive is no longer available, choose an available one explicitly.
 
-**Downloading through Orbit Zero?** Vikingfile opens on your computer instead. Complete any verification and select **Download** there. See the [Orbit Zero download steps](orbit-zero-installation.md#vikingfile-downloads).
+**Downloading through Orbit Zero?** In Zero 1.4.0 or later, Vikingfile opens on your computer. Complete any verification and wait without pressing Download. Zero captures the ready link and closes the provider window. See the [Orbit Zero download steps](orbit-zero-installation.md#vikingfile-downloads).
 
-**Automatic capture requires the matching 1.3.5 PS5 apps.** Earlier Vikingfile flows require the Download click; update both the service and native app before following these steps.
+**Automatic capture requires Orbit Store 1.3.5 or later with its matching native app, or Orbit Zero 1.4.0 or later.** Earlier Vikingfile flows require the Download click; update the app handling your download before following these steps.
 
 1. Select the Vikingfile option and destination drive in Orbit.
 2. Select **Open download page on PS5** in Orbit's browser interface, or **Open Vikingfile on PS5** in the native app. This opens the provider page on the console.

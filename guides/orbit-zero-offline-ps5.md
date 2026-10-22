@@ -2,7 +2,7 @@
 
 Install **Orbit Zero on your computer**, then use it to upload and start Orbit on your PS5 over your local network. Your computer handles online downloads and sends the files to the console. **The PS5 can keep its internet access blocked throughout setup and use.**
 
-This guide covers **Orbit Zero 1.3.5** and the matching PS5 files from the [Orbit Store release](https://github.com/saawant12/orbit-store-ps5/releases/latest).
+This guide covers **Orbit Zero 1.4.0** and the matching PS5 files from the [Orbit Store release](https://github.com/saawant12/orbit-store-ps5/releases/latest).
 
 The desktop app includes the compatible Orbit service and uploads it over your local network. If an older Orbit service is already running, stop it before starting the new copy. See the [download choices and update steps](orbit-zero-installation.md).
 
@@ -78,7 +78,7 @@ In Browse, use **Platform** to choose PS4, PS5 or both. Open a game in Orbit Zer
 - **Extract on computer:** extraction progress for ZIP, RAR and 7z downloads.
 - **Transfer to PS5:** progress and speed across your local network.
 
-For Vikingfile, complete any verification and select the file's Download button in the provider window **on the computer**. For AkiraBox, complete verification and wait without pressing Download. Orbit Zero captures the ready file link and queues the download; the PS5 does not need to open the provider page.
+For Vikingfile and AkiraBox, complete any verification in the provider window **on the computer**, then wait without pressing Download. Orbit Zero captures the ready file link and queues the download; the PS5 does not need to open the provider page.
 
 Keep **both devices awake** and Orbit Zero open until the transfer finishes. By default, completed downloads remain in the computer cache. In **Downloads → Download settings → Computer cache**, enable **Automatically remove after transfer** for future successful transfers, or use **Clear completed cache** to remove existing completed copies. The finished PS5 files stay in place.
 
