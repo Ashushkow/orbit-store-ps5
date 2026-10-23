@@ -10,6 +10,8 @@ PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, o
 
 [Download Orbit](https://github.com/saawant12/orbit-store-ps5/releases/latest) · [Orbit Zero](#orbit-zero-for-mac-windows-and-linux) · [Get started](guides/getting-started.md) · [Download guide](guides/downloads.md) · [Library guide](guides/library.md) · [Appearance guide](guides/appearance.md) · [Troubleshooting](guides/troubleshooting.md) · [Bug report format](.github/ISSUE_TEMPLATE/bug_report.md) · [Report a bug](https://github.com/saawant12/orbit-store-ps5/issues/new?template=bug_report.md) · [Request a feature](https://github.com/saawant12/orbit-store-ps5/issues/new?template=feature_request.md)
 
+> **Also from Orbit: [Orbit Play](https://github.com/saawant12/orbit-play-ps5)** — Stream your jailbroken PS5 to Mac, Windows or Linux over your local network, without PSN sign-in. **Beta available now.**
+
 > **Official channels:** Orbit Store has no official social media accounts. This GitHub repository is our official source for releases, updates and support. Any social media account claiming to officially represent Orbit Store is an impersonator.
 
 > **Always free.** Orbit Store is free to use and will always remain free. We don’t accept donations or payments. Anyone asking for money on our behalf is not affiliated with the project.
