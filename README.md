@@ -6,9 +6,9 @@ Orbit runs on your PS5. Browse games, compare their available sources and format
 
 When a game finishes downloading, install it without leaving Orbit. Choose **Install on PS5** for a PKG or FPKG. For exFAT, FFPFSC and game folders, Orbit asks ShadowMount to scan for them automatically, if a supported version is running.
 
-Explore **2,026 games: 1,107 PS5 games and 919 PS4 games**, plus **445 DLCs and add-ons for 78 games**, with single-file downloads from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games, add-ons and corrected links arrive through catalogue updates.
+**[Orbit Zero](#orbit-zero-for-mac-windows-and-linux)** brings Orbit to Mac, Windows and Linux. Download games on your computer and send them to your PS5 straight away or later, without your PS5 needing internet access.
 
-PS4 game browsing requires **Orbit Store 1.1.0 or later** with its matching native app, or **Orbit Zero 1.1.0 or later**. Use the latest matching apps for DLC and installation controls. Orbit itself runs on PS5. See [PS4 games on PS5](guides/downloads.md#ps4-games-on-ps5) for package download and installation guidance.
+Explore **2,026 games: 1,107 PS5 games and 919 PS4 games**, plus **445 DLCs and add-ons for 78 games**, with single-file downloads from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games, add-ons and corrected links arrive through catalogue updates. For PS4 packages, see [PS4 games on PS5](guides/downloads.md#ps4-games-on-ps5).
 
 <p>
   <a href="assets/1.5.0/native-crossbar-discover.jpg?raw=1"><img src="assets/1.5.0/native-crossbar-discover.jpg" width="48%" alt="Native Crossbar Discover with Bully selected"></a>
