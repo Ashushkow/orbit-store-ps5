@@ -4,13 +4,13 @@ Download on your computer and transfer to your PS5 over your home network. Wi-Fi
 
 **PS5 has no internet?** Follow [Set up Orbit on a PS5 without internet](https://github.com/saawant12/orbit-store-ps5/blob/main/guides/orbit-zero-offline-ps5.md) for the full local upload, pairing and optional native-app installation steps.
 
-This guide covers **Orbit Zero 1.4.0**. The download and transfer improvements from the earlier optional builds are now included as standard. The Mac app is Developer ID signed but is not yet notarized. Windows and Linux packages are unsigned.
+This guide covers **Orbit Zero 1.5.0**. The download and transfer improvements from the earlier optional builds are now included as standard. The Mac app is Developer ID signed but is not yet notarized. Windows and Linux packages are unsigned.
 
 Get the files from the [Orbit Store release](https://github.com/saawant12/orbit-store-ps5/releases/latest).
 
 ## Update Orbit Zero
 
-Quit Orbit Zero, then replace it using the installer or archive for your computer below. Your pairing and queue stay saved. In Orbit Store on the PS5, stop the running service under **App settings → Update / reinstall → Stop Orbit to restart**. Then open the new desktop app and use **Console → Start Orbit on PS5** to upload and start its included 1.4.0 service. The PS5 does not need internet for this step. Select **Resume** for any paused transfers.
+Quit Orbit Zero, then replace it using the installer or archive for your computer below. Your pairing and queue stay saved. In Orbit Store on the PS5, stop the running service under **App settings → Update / reinstall → Stop Orbit to restart**. Then open the new desktop app and use **Console → Start Orbit on PS5** to upload and start its included 1.5.0 service. The PS5 does not need internet for this step. Select **Resume** for any paused transfers.
 
 Install the matching native FFPKG if you use Orbit Store from the PS5 Games row. It carries the same updated service. Uploading a new ELF or replacing the FFPKG does not replace an already-running session.
 
@@ -18,12 +18,12 @@ Install the matching native FFPKG if you use Orbit Store from the PS5 Games row.
 
 | Computer | File |
 | --- | --- |
-| Mac with an Apple M-series chip | `Orbit-Zero-1.4.0-mac-arm64.dmg` |
-| Mac with an Intel processor | `Orbit-Zero-1.4.0-mac-x64.dmg` |
-| Windows on Intel or AMD | `Orbit-Zero-1.4.0-win-x64.zip` |
-| Windows on ARM, including Snapdragon | `Orbit-Zero-1.4.0-win-arm64.zip` |
-| Ubuntu or Debian on Intel or AMD | `Orbit-Zero-1.4.0-linux-amd64.deb` |
-| Ubuntu or Debian on ARM64 | `Orbit-Zero-1.4.0-linux-arm64.deb` |
+| Mac with an Apple M-series chip | `Orbit-Zero-1.5.0-mac-arm64.dmg` |
+| Mac with an Intel processor | `Orbit-Zero-1.5.0-mac-x64.dmg` |
+| Windows on Intel or AMD | `Orbit-Zero-1.5.0-win-x64.exe` (installer) or `Orbit-Zero-1.5.0-win-x64.zip` (portable) |
+| Windows on ARM, including Snapdragon | `Orbit-Zero-1.5.0-win-arm64.exe` (installer) or `Orbit-Zero-1.5.0-win-arm64.zip` (portable) |
+| Ubuntu or Debian on Intel or AMD | `Orbit-Zero-1.5.0-linux-amd64.deb` |
+| Ubuntu or Debian on ARM64 | `Orbit-Zero-1.5.0-linux-arm64.deb` |
 
 On a Mac, check **Apple menu → About This Mac**. On Windows, check **Settings → System → About → System type**. On Linux, run `uname -m`: `x86_64` needs AMD64/x64; `aarch64` needs ARM64. In a virtual machine, choose the build for the guest operating system. 32-bit x86 is not supported.
 
@@ -34,19 +34,19 @@ Download **`SHA256SUMS`** from the same release as your desktop package. It cont
 **macOS, in Terminal:**
 
 ```sh
-shasum -a 256 "$HOME/Downloads/Orbit-Zero-1.4.0-mac-arm64.dmg"
+shasum -a 256 "$HOME/Downloads/Orbit-Zero-1.5.0-mac-arm64.dmg"
 ```
 
 **Windows, in PowerShell:**
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\Orbit-Zero-1.4.0-win-x64.zip" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\Orbit-Zero-1.5.0-win-x64.zip" -Algorithm SHA256
 ```
 
 **Linux, in a terminal:**
 
 ```sh
-sha256sum "$HOME/Downloads/Orbit-Zero-1.4.0-linux-amd64.deb"
+sha256sum "$HOME/Downloads/Orbit-Zero-1.5.0-linux-amd64.deb"
 ```
 
 Open `SHA256SUMS` in a text editor and find the line with the **exact same filename**. Its 64-character checksum must match your result; uppercase and lowercase letters are equivalent. If it differs, download the file again before installing. You only need the package for your computer, not every file listed in `SHA256SUMS`.
@@ -65,13 +65,17 @@ Pairing or selecting **Reconnect** may open a Keychain prompt to protect or unlo
 
 ## Windows
 
+For a normal installation, download the `.exe` matching your processor, quit Orbit Zero and run the installer. Open Orbit Zero from the Start menu afterward. The combined `Orbit-Zero-1.5.0-win.exe` installer is also available. Check any Windows security prompt against the file you downloaded from the official release.
+
+For the portable ZIP:
+
 1. Save the matching ZIP to a folder on the Windows computer, such as **Downloads**.
 2. Right-click it and choose **Extract All**. Keep the complete extracted folder together.
 3. Open **Orbit Zero.exe** from that folder. Do not launch it from inside the ZIP or copy only the EXE out of the folder.
 4. If SmartScreen says **Windows protected your PC**, check that this is the Orbit build you intended to download. For a trusted copy, choose **More info → Run anyway**, if offered. The Windows app is unsigned. If your organisation or Smart App Control blocks it without that option, contact the maintainer or administrator rather than disabling protection. [Microsoft's SmartScreen guidance](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
 5. If Windows asks to allow network access, allow **Orbit Zero** on your trusted **Private** home network. This lets the PS5 reach the computer's controls. Firewall approval may require an administrator; the app itself runs as your normal user. [Microsoft's firewall guidance](https://support.microsoft.com/en-us/windows/security/firewall/risks-of-allowing-apps-through-windows-firewall).
 
-There is no installation wizard for the Windows ZIP, and **Run as administrator** is not required. You can create a shortcut to the extracted EXE. To update, quit Orbit Zero, extract the new ZIP into a new folder, and launch that copy. Your saved pairing and queue stay in your Windows user profile.
+The installer is optional. There is no installation wizard for the Windows ZIP, and **Run as administrator** is not required. You can create a shortcut to the extracted EXE. To update, quit Orbit Zero, extract the new ZIP into a new folder, and launch that copy. Your saved pairing and queue stay in your Windows user profile.
 
 **Using a virtual machine?** Copy the ZIP onto the Windows filesystem before extracting it. If the shared folder says **Access denied**, transfer the ZIP using the VM's supported file-transfer method or download it inside Windows. Changing Orbit's permissions will not repair the VM's shared-folder connection.
 
@@ -84,18 +88,18 @@ Use the `.deb` installer. It adds Orbit Zero to your application menu and sets u
 
    ```sh
    # Intel / AMD 64-bit
-   sudo apt install "$HOME/Downloads/Orbit-Zero-1.4.0-linux-amd64.deb"
+   sudo apt install "$HOME/Downloads/Orbit-Zero-1.5.0-linux-amd64.deb"
    ```
 
    ```sh
    # ARM64
-   sudo apt install "$HOME/Downloads/Orbit-Zero-1.4.0-linux-arm64.deb"
+   sudo apt install "$HOME/Downloads/Orbit-Zero-1.5.0-linux-arm64.deb"
    ```
 
 3. Enter your Linux password if asked. The installer needs administrator access; characters do not appear while typing the password. Internet access may be needed to install dependencies.
 4. Open **Orbit Zero** from your application menu. Do not run the app itself with `sudo`.
 
-**Saved the installer somewhere else?** Open a terminal in that folder and include `./` before its filename, for example `sudo apt install ./Orbit-Zero-1.4.0-linux-arm64.deb`. Without `./` or a full path, apt searches its package repositories and reports **Unable to locate package**. If `uname -m` says `aarch64`, use the ARM64 installer; AMD64 is for Intel/AMD computers.
+**Saved the installer somewhere else?** Open a terminal in that folder and include `./` before its filename, for example `sudo apt install ./Orbit-Zero-1.5.0-linux-arm64.deb`. Without `./` or a full path, apt searches its package repositories and reports **Unable to locate package**. If `uname -m` says `aarch64`, use the ARM64 installer; AMD64 is for Intel/AMD computers.
 
 If you are updating, quit Orbit Zero and install the new `.deb` the same way. Your saved pairing and queue stay in your user profile. When pairing or reconnecting, Ubuntu may ask you to unlock your login keyring; that stores the pairing securely.
 
@@ -121,7 +125,7 @@ sudo chmod 4755 chrome-sandbox
 
 ## Choose your language
 
-Select the globe-shaped **Language** button in Store’s top bar, or **Settings → Language** in Crossbar, Cinema or Panorama. Orbit Zero 1.4.0 supports English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish. Choose **System language** to follow your computer. This changes Orbit’s interface, not a downloaded game’s language.
+Select the globe-shaped **Language** button in Store’s top bar, or **Settings → Language** in Crossbar, Cinema or Panorama. Orbit Zero 1.5.0 supports English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish. Choose **System language** to follow your computer. This changes Orbit’s interface, not a downloaded game’s language.
 
 ## Choose your interface
 
@@ -175,7 +179,7 @@ If you have already paired this console, Zero restores that pairing when it conn
 
 When the status changes to **Connected**, your available PS5 drives appear under **Storage**. In Browse, use **Platform** to choose PS4, PS5 or both. Open a game, choose a source and destination, and start the download. PS4 packages use the same transfer controls. **Downloads** shows the computer download and PS5 transfer separately.
 
-**Coming in 1.5.0:** after the files reach the console, open **Downloads → Downloaded files** and choose **Install on PS5** for a PKG/FPKG. Use the matching desktop app and PS5 service. Compatible exFAT, FFPFSC and game folders automatically request a ShadowMount scan when it is running. See [installing downloaded games](install-games.md).
+In **1.5.0**, after the files reach the console, open **Downloads → Downloaded files** and choose **Install on PS5** for a PKG/FPKG. Use the matching desktop app and PS5 service. Compatible exFAT, FFPFSC and game folders automatically request a ShadowMount scan when it is running. See [installing downloaded games](install-games.md).
 
 ![Full-screen Orbit Zero Console after pairing, showing Connected, download preference and available storage](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/assets/orbit-zero-development/connect-ready.jpg)
 

@@ -21,7 +21,7 @@ For transfers to PS5, you also need:
 - Writable storage on the PS5.
 - A PS5 with its jailbreak and Payload Manager or a compatible ELF loader already running, or the matching Orbit receiver already started. Zero does not jailbreak the console.
 - Both devices on the same reachable home network. Wi-Fi, Ethernet, or a mixture of both work. Use the PS5's local IPv4 address.
-- Orbit Zero and its included Orbit Store 1.4.0 service. For native TV controls, install the matching FFPKG from the same release.
+- Orbit Zero and its included Orbit Store 1.5.0 service. For native TV controls, install the matching FFPKG from the same release.
 
 Downloads are available for **ARM64 and x64 on macOS, Windows and Linux**; 32-bit x86 is not supported. Mac builds use Developer ID signing but are not notarized; Windows and Linux packages are unsigned. The interface supports English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish. In Store, select the globe-shaped **Language** button in the top bar; in the other interfaces, open **Settings → Language**. Choose a language or leave **System language** selected.
 
@@ -71,11 +71,11 @@ Pairing is saved using the computer's encrypted credential store. Zero reconnect
 
 In the Store interface, **New on Orbit** appears first in Discover, followed by **Latest releases** and the All games grid. The other interfaces present these collections in their own layouts. In Browse, use **Platform** to choose PS4, PS5 or both. Platform editions stay separate, with their own images, release dates and download options.
 
-The current catalogue includes 731 PS4 games, with raw PKG/FPKG files and single ZIP, RAR or 7z archives among their download options. Choose a source and **This computer** or a PS5 destination just as you would for a PS5 game. The computer-download route also works with the PS5’s internet access blocked. The upcoming **1.5.0** apps add **Install on PS5** after the transfer finishes. Earlier versions need a compatible package installer. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
+The current catalogue includes 919 PS4 games, with raw PKG/FPKG files and single ZIP, RAR or 7z archives among their download options. Choose a source and **This computer** or a PS5 destination just as you would for a PS5 game. The computer-download route also works with the PS5’s internet access blocked. The **1.5.0** apps provide **Install on PS5** after the transfer finishes. Earlier versions need a compatible package installer. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
 
 ## DLC and add-ons in 1.5.0
 
-The upcoming release adds **Add-ons** next to Browse in all four interfaces. Search by DLC or base-game name, or open **Add-ons (count)** from a game’s details. Review the type, contents and base-game requirements before choosing a source.
+Orbit 1.5.0 adds **Add-ons** next to Browse in all four interfaces. Search by DLC or base-game name, or open **Add-ons (count)** from a game’s details. Review the type, contents and base-game requirements before choosing a source.
 
 Use **This computer** to save DLC without a connected PS5, then **Send to PS5** when ready. Once the files reach the console, choose **Install on PS5** for the individual packages you want. A bundle does not install everything automatically. See [the DLC guide](add-ons.md) for filters, activation packages and compatibility.
 
@@ -92,7 +92,7 @@ Zero downloads one game to the computer at a time by default. Open **Downloads �
 
 Each computer download uses up to eight connections when the provider supports validated byte ranges, with a single-connection fallback. Actual speed depends on the provider, network and storage. **Downloads** shows **Download to computer** and **Transfer to PS5** separately; their rates and progress can differ. A direct PS5 download shows the rate reported by Orbit.
 
-The upcoming **1.5.0** release adds estimated time remaining for each stage and direct PS5 downloads. It reads upcoming chunks while transferring to reduce gaps between writes. Speeds still depend on your network and drives. Download options also show known firmware requirements using the last paired PS5's firmware while it is offline; unpairing clears that saved firmware. A matching firmware label does not guarantee game or DLC compatibility.
+Orbit **1.5.0** adds estimated time remaining for each stage and direct PS5 downloads. It reads upcoming chunks while transferring to reduce gaps between writes. Speeds still depend on your network and drives. Download options also show known firmware requirements using the last paired PS5's firmware while it is offline; unpairing clears that saved firmware. A matching firmware label does not guarantee game or DLC compatibility.
 
 For a bug report in 1.5.0, **Download settings → Export log** saves recent activity and the connected PS5's diagnostics. It excludes game titles, filenames, folders, links, passwords and tokens. Nothing is uploaded automatically.
 
@@ -150,7 +150,7 @@ The computer copy is kept by default. **Downloads → Download settings → Comp
 
 To forget the console, use **Console → Connection settings → Unpair PS5**. Finish or cancel unfinished computer transfers first, including paused or interrupted transfers, because they require the original pairing to resume. Unpairing keeps files and download history.
 
-Orbit Zero’s Library is read-only. In the upcoming **1.5.0** apps, installation controls are in **Downloads**: after a package reaches the PS5, open **Downloaded files**, choose the package and select **Install on PS5**. Computer-only downloads must be sent to the console first. The PS5 performs the installation and keeps the source file. Zero does not launch games.
+Orbit Zero’s Library is read-only. In **1.5.0** and later, installation controls are in **Downloads**: after a package reaches the PS5, open **Downloaded files**, choose the package and select **Install on PS5**. Computer-only downloads must be sent to the console first. The PS5 performs the installation and keeps the source file. Zero does not launch games.
 
 New exFAT, FFPFSC and game-folder transfers automatically request a scan when the PS5 has a compatible ShadowMount version running. If ShadowMount was unavailable, start it and use **Scan with ShadowMount** in the completed download’s details when offered. See [installation and scan guidance](install-games.md).
 
@@ -160,7 +160,7 @@ Completed transfer details show **PS5 location**, plus **Computer location** whi
 
 Open **Console → Connection settings**, enter the PS5’s new local IP address and select **Connect to Orbit**. Zero checks the saved pairing before moving the existing queue to that address.
 
-If the console no longer accepts the saved pairing, Zero offers **Pair again and keep downloads**. Confirm that it is the PS5 used for those downloads, request the on-screen code and enter it. This requires a new pairing code, not just a confirmation. Downloads remain paused until you select **Resume**, which checks the PS5 partial before continuing. If that partial cannot be verified, use **Restart PS5 transfer** when offered to reuse the computer copy without overwriting existing PS5 files.
+If the console no longer accepts the saved pairing, Zero offers **Pair again and keep downloads**. Confirm that it is the PS5 used for those downloads, request the on-screen code and enter it. This requires a new pairing code, not just a confirmation. Downloads remain paused until you select **Resume**. Zero compares the existing PS5 partial with the computer copy and continues from the verified position when possible. If resuming is not possible, **Recover downloads → Review PS5 transfer** offers **Delete PS5 partial and start again** after you explicitly confirm the deletion. Only that partial copy is deleted; your computer download is kept.
 
 ## Recover a completed computer download
 

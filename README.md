@@ -4,7 +4,7 @@
 
 Orbit runs on your PS5. Browse games, compare their available sources and formats, and download a single file directly to the console or an attached drive. Open the native TV app from your Games row, or pair a phone or computer to manage the same queue over your local network.
 
-Explore **1,831 games: 1,100 PS5 games and 731 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games and corrected links arrive through catalogue updates.
+Explore **2,026 games: 1,107 PS5 games and 919 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games and corrected links arrive through catalogue updates.
 
 PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, or **Orbit Zero 1.1.0**. Orbit itself runs on PS5. See [PS4 games on PS5](guides/downloads.md#ps4-games-on-ps5) for package download and installation guidance.
 
@@ -18,17 +18,19 @@ PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, o
 
 ## Built around the console
 
-- **A native app for your TV.** Browse, Discover, Library and Downloads, built for your controller. Save favourites with Square in Store, or Triangle in the other native interfaces. Your downloads keep running when you close the app.
+- **A native app for your TV.** Browse, Discover, Add-ons, Library and Downloads, built for your controller. Save favourites with Square in Store, or Triangle in the other native interfaces. Your downloads keep running when you close the app.
 - **One link per download.** Choose a single-file FFPFSC, exFAT, PKG, FPKG, ZIP, RAR or 7z option, with its source and download size shown before starting. Supported archives extract automatically; there are no archive parts to collect.
 - **Four ways to make it yours.** Choose Store, Crossbar, Cinema or Panorama, with motion and background options. See the [appearance guide](guides/appearance.md).
 - **Your queue, your pace.** Pause, resume, retry and reorder downloads. Choose 1–8 simultaneous games, with one active download by default. Check the space they need before adding more.
 - **Optional TorBox downloads.** Connect your own account to use TorBox for supported links, or download directly from the original provider. See [TorBox setup](guides/downloads.md#optional-download-through-torbox) for account and host limits.
 - **Archive.org sign-in.** Sign in from the PS5 apps or Orbit Zero to access downloads that require an account. See [account setup](guides/downloads.md#archiveorg-sign-in).
 - **A Library for your drives.** See installed games and available files. Manage compatible sources through ShadowMount.
-- **Coming in 1.5.0: DLC comes to Orbit.** Browse **408 add-ons for 43 games**, including expansions, content packs, activation packages and bundles. Open **Add-ons** or find extras from a game’s details. Available across the PS5 apps and Orbit Zero in all four interfaces. See the [DLC guide](guides/add-ons.md).
-- **Coming in 1.5.0: install games without leaving Orbit.** Choose **Install on PS5** after a PKG/FPKG finishes downloading or transferring. Compatible images and game folders trigger a ShadowMount scan automatically when it is running. See [installing downloaded games](guides/install-games.md).
+- **DLC comes to Orbit.** Browse **408 add-ons for 43 games**, including expansions, content packs, activation packages and bundles. Open **Add-ons** or find extras from a game’s details. Available across the PS5 apps and Orbit Zero in all four interfaces. See the [DLC guide](guides/add-ons.md).
+- **Install games without leaving Orbit.** Choose **Install on PS5** after a PKG/FPKG finishes downloading or transferring. Compatible images and game folders trigger a ShadowMount scan automatically when it is running. See [installing downloaded games](guides/install-games.md).
+- **Know what your firmware can run.** Download choices show known firmware requirements. Options that do not match your PS5 are listed last with a warning and remain selectable.
+- **Download notifications on PS5.** Get a console notification when a download finishes or fails, with an on/off setting.
 - **Control from your phone.** Pair once to browse, queue downloads and check progress on the same PS5.
-- **Updates when you choose.** Orbit tells you when an update is available. In the TV app, open **App settings → Updates** to manage the TV app and download service separately. Installation, restart and payload-manager setup remain your choice.
+- **Updates when you choose.** Orbit tells you when an update is available. Choose **Update Orbit** in Updates to update the TV app and download service together, or **Restart Orbit** to restart only the service. Installation and payload-manager setup remain your choice.
 - **No Orbit account. No telemetry.** Your paired devices connect to Orbit on your local network.
 
 ## Get started
@@ -106,7 +108,7 @@ Make Orbit look the way you like. Open **Appearance** and choose **Store**, **Cr
 
 The instructions below use Store’s settings names. In the browser’s Crossbar, Cinema and Panorama interfaces, use the [Settings page equivalents](guides/appearance.md#find-settings-after-switching).
 
-Choose sources, set your default drive, pair a phone and refresh your game catalogue from one place. Updates has separate controls for the TV app and its download service; you choose when to install or restart.
+Choose sources, set your default drive, pair a phone and refresh your game catalogue from one place. **Update Orbit** updates the TV app and download service together; you choose when to install or restart.
 
 ![Native App settings with source choices](assets/0.9.0/native-settings.png)
 
@@ -148,9 +150,11 @@ Download on your computer and transfer to your PS5 over your home network. Uncom
 - **Start Orbit from your computer.** Upload and launch the compatible payload without a separate ELF download or manual file selection. Your PS5 must already have its jailbreak and Payload Manager or an ELF loader running.
 - **Control downloads from either device.** Browse and manage the computer’s queue from the desktop or the matching native Orbit app on your PS5.
 - **Choose where downloads run.** Use **Computer** to download through your computer, or **Prefer PS5** to download directly when the console can reach the source. Save your preference once.
-- **Follow each stage.** See the download and PS5 transfer rates separately, plus extraction progress for archives, with controls to pause, resume and reconnect.
+- **Follow each stage.** See download and PS5 transfer rates and estimated time remaining separately, plus extraction progress for archives, with controls to pause, resume and reconnect.
 - **Recover an interrupted transfer.** Resume after a connection failure, reconnect your PS5 at its new address, or remove a stuck queue entry while keeping its files. [Compare the recovery choices](guides/orbit-zero.md#pause-reconnect-and-clean-up).
 - **Reuse completed computer downloads.** Recover a saved `.cache` file whose queue entry was removed, then transfer it without downloading it again. See [cache recovery](guides/orbit-zero.md#recover-a-completed-computer-download).
+- **Install after transfer.** Open **Downloaded files** and choose **Install on PS5** once a game or add-on reaches the console. Select each package you want from a bundle.
+- **Export a diagnostic log.** **Download settings → Export log** saves a report for support, including PS5 diagnostics when connected. Titles, filenames, paths, links, passwords and tokens are excluded.
 - **Use your accounts on the computer.** Download settings includes Archive.org sign-in and TorBox for supported sources. Computer accounts are separate from the PS5 service’s accounts.
 - **Download more at once.** Download one game to your computer at a time by default, or choose 1–8 in Download settings. PS5 transfers run one at a time while computer downloads continue.
 
@@ -176,13 +180,13 @@ The desktop app supports **ARM64 and x64** computers and the same **11 interface
 
 ## Beta status
 
-**Orbit Store is an experimental beta.** [Download the latest release](https://github.com/saawant12/orbit-store-ps5/releases/latest). The matching components in release **1.4.0** have these version numbers:
+**Orbit Store is an experimental beta.** [Download the latest release](https://github.com/saawant12/orbit-store-ps5/releases/latest). The matching components in release **1.5.0** have these version numbers:
 
 | Component | Version |
 | --- | --- |
-| Orbit Store download service and browser interface (`orbit_store.elf`) | **1.4.0** |
-| Native TV app (`PPSA99177.ffpkg`) | **1.8.0** |
-| Orbit Zero for desktop | **1.4.0** |
+| Orbit Store download service and browser interface (`orbit_store.elf`) | **1.5.0** |
+| Native TV app (`PPSA99177.ffpkg`) | **1.9.0** |
+| Orbit Zero for desktop | **1.5.0** |
 
 The TV app has its own version number; these files belong to the same release. Use matching files when updating. Keep the PS5 awake while downloading or receiving transfers.
 
@@ -216,17 +220,17 @@ For the browser setup, manager integration and phone pairing steps, follow [Gett
 
 After a reboot, run your jailbreak as usual. Open the Games-row TV app to start Orbit through your ELF loader, or start the payload manually or through auto-start you have configured. The Media-tab browser shortcut needs Orbit already running. If auto-start does not launch Orbit on your setup, start it manually from your payload manager.
 
-Keep the PS5 awake while downloading. Closing the storefront leaves downloads running. After an Orbit restart, interrupted transfers become paused so you can review and resume them.
+Keep the PS5 awake while downloading. Closing the storefront leaves downloads running. After an unexpected interruption, downloads recover paused for review. The **Restart Orbit** action resumes downloads that were active before that controlled restart.
 
 ## Updating or reinstalling Orbit
 
-**Update the service and TV app separately.** In the native app, open **App settings → Updates** for both. In the browser version, **App settings → Update / reinstall** updates the ELF; **App settings → TV app** installs or updates the native app. Close the TV app before replacing it. If ShadowMountPlus still opens the old version, restart the console when convenient and run your jailbreak again. Replacing the FFPKG does not switch an already-running Orbit service; stop Orbit deliberately before starting its new copy. The [update guide](guides/getting-started.md#update-the-tv-app) explains both steps.
+**Update Orbit in one step.** In 1.5.0, choose **Update Orbit** under the native app’s **App settings → Updates**, or the browser’s **App settings → Update / reinstall** (**Settings → Updates** in other layouts). It updates the TV app and download service together. With an ELF loader running on port 9021, Orbit restarts its service and resumes the downloads interrupted by that restart. Reopen the TV app to use its update. If no loader is available, follow Orbit’s manual start instructions. **Restart Orbit** restarts only the service. See the [update guide](guides/getting-started.md#update-the-tv-app).
 
 To restore a deleted Orbit icon, start Orbit through your payload manager. Your paired devices, source choices and download queue stay saved.
 
 Loading an ELF while Orbit is already running saves the replacement for the next start. It does not switch the active session. The notification now explains this; an existing icon is expected and does not need to be removed.
 
-**Update the browser service:**
+**For older versions or a manual service update:**
 
 1. Open **App settings → Update / reinstall → Check for updates**.
 2. Choose **Install update**, or **Reinstall release** for the current published version. Orbit downloads the official ELF and verifies its SHA-256 checksum before replacing the saved copy.
@@ -298,7 +302,7 @@ The catalogue offers single-file **FFPFSC**, **exFAT**, **PKG**, **FPKG**, **ZIP
 | **exFAT** | `.exfat` image | ShadowMountPlus mounts it. Nothing to install. |
 | **FFPFSC** | `.ffpfsc` image | ShadowMountPlus mounts it. Nothing to install. |
 | **Game folder** | A folder of game files, from an archive | ShadowMountPlus mounts it. Nothing to install. |
-| **PKG**, **FPKG** | `.pkg` package | Choose **Install on PS5** in the upcoming 1.5.0 apps, or use your compatible package installer on earlier versions. ShadowMountPlus does not mount `.pkg` files. |
+| **PKG**, **FPKG** | `.pkg` package | Choose **Install on PS5** in 1.5.0 and later, or use your compatible package installer on earlier versions. ShadowMountPlus does not mount `.pkg` files. |
 | **ZIP**, **RAR**, **7z** | Archive | Orbit extracts it after downloading. The label shows what's inside, for example `7z · exFAT`; follow that row. |
 
 **PS5 FPKGs and firmware (October 2026):** PS5 FPKG games currently run only on firmware 11.60 or lower. On 12.xx and 13.xx they may install but won't start, until package support arrives for those firmwares. On those firmwares, choose exFAT or FFPFSC instead.
@@ -333,7 +337,7 @@ For password-protected archives, Orbit automatically tries the supplied password
 
 Passwords are case-sensitive. If none works, select **Enter archive password** on the download, enter the password provided by its source, then choose **Retry extraction**. Orbit keeps the downloaded archive so you can retry without downloading it again.
 
-In the upcoming **1.5.0** apps, completed downloads offer **Install on PS5** for PKG/FPKG games. Installation is your choice and keeps the downloaded file. New exFAT, FFPFSC and game-folder downloads automatically request a scan when a compatible ShadowMount version is running. See [installing downloaded games](guides/install-games.md) for Zero, bundles and recovery.
+In **1.5.0** and later, completed downloads offer **Install on PS5** for PKG/FPKG games. Installation is your choice and keeps the downloaded file. New exFAT, FFPFSC and game-folder downloads automatically request a scan when a compatible ShadowMount version is running. See [installing downloaded games](guides/install-games.md) for Zero, bundles and recovery.
 
 “Complete” means the download was saved and passed available validation; installation and ShadowMount registration have their own status. Size-only checks are labelled separately from checksum verification. Orbit does not launch games or download in rest mode.
 

@@ -1,6 +1,6 @@
 # Choose your Orbit interface
 
-Orbit Store 1.4.0 and Orbit Zero 1.4.0 offer four interfaces: **Store**, **Crossbar**, **Cinema** and **Panorama**. For the native PS5 app, use **1.8.0**, included in the same release. Each changes the layout and navigation while keeping your catalogue, favourites and download queue.
+Orbit Store 1.5.0 and Orbit Zero 1.5.0 offer four interfaces: **Store**, **Crossbar**, **Cinema** and **Panorama**. For the native PS5 app, use **1.9.0**, included in the same release. Each changes the layout and navigation while keeping your catalogue, favourites and download queue.
 
 ## Switch interfaces
 
@@ -160,7 +160,7 @@ The layouts use the same available games and enabled sources. Browse still provi
 
 ## Add-ons in 1.5.0
 
-The upcoming release adds **Add-ons** after Browse in every interface, across the browser, native PS5 app and Orbit Zero. It uses the layout’s existing search and filter controls. Crossbar gives Add-ons its own icon; Panorama shows the tile caption when selected. Open **Add-ons (count)** from a game’s details to see extras for that game.
+Orbit 1.5.0 adds **Add-ons** after Browse in every interface, across the browser, native PS5 app and Orbit Zero. It uses the layout’s existing search and filter controls. Crossbar gives Add-ons its own icon; Panorama shows the tile caption when selected. Open **Add-ons (count)** from a game’s details to see extras for that game.
 
 Changing interfaces does not change add-on availability, download progress or installation status. See [the DLC guide](add-ons.md) for content types and requirements. The screenshots above show earlier releases and do not yet show the Add-ons page.
 

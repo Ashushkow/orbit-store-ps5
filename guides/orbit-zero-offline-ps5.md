@@ -2,7 +2,7 @@
 
 Install **Orbit Zero on your computer**, then use it to upload and start Orbit on your PS5 over your local network. Your computer handles online downloads and sends the files to the console. **The PS5 can keep its internet access blocked throughout setup and use.**
 
-This guide covers **Orbit Zero 1.4.0** and the matching PS5 files from the [Orbit Store release](https://github.com/saawant12/orbit-store-ps5/releases/latest).
+This guide covers **Orbit Zero 1.5.0** and the matching PS5 files from the [Orbit Store release](https://github.com/saawant12/orbit-store-ps5/releases/latest).
 
 The desktop app includes the compatible Orbit service and uploads it over your local network. If an older Orbit service is already running, stop it before starting the new copy. See the [download choices and update steps](orbit-zero-installation.md).
 
@@ -84,7 +84,7 @@ Keep **both devices awake** and Orbit Zero open until the transfer finishes. By 
 
 The **Computer** preference chooses where downloads run; it does not change your router or block the PS5's internet access for you.
 
-PS4 PKG/FPKG downloads follow the same computer-to-PS5 route. The PS5 does not need internet for the transfer. In the upcoming **1.5.0** apps, choose **Install on PS5** from the completed download; the command uses your local network and installs the file already on the console. Earlier versions need a compatible package installer. Installation does not change a game’s compatibility or online requirements. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5). Orbit’s apps still run on PS5, not PS4 consoles.
+PS4 PKG/FPKG downloads follow the same computer-to-PS5 route. The PS5 does not need internet for the transfer. In **1.5.0** and later, choose **Install on PS5** from the completed download; the command uses your local network and installs the file already on the console. Earlier versions need a compatible package installer. Installation does not change a game’s compatibility or online requirements. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5). Orbit’s apps still run on PS5, not PS4 consoles.
 
 ## Optional: use Orbit's native app on the PS5
 

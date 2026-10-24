@@ -20,11 +20,11 @@ Orbit Zero includes PS4 and PS5 browsing and the same 11 interface languages as 
 
 ## PS4 and PS5 games
 
-The catalogue includes both platforms. The current release pairs **Orbit Store 1.4.0**, **native app 1.8.0** and **Orbit Zero 1.4.0**. PS4 support starts with service 1.1.0, native app 1.4.0 and Zero 1.1.0; archive extraction and AkiraBox need the current matching apps. In Browse, choose **Platform → PS4**, **PS5** or **All platforms**. A PS4 and a PS5 edition of the same game have separate download choices.
+The catalogue includes both platforms. The current release pairs **Orbit Store 1.5.0**, **native app 1.9.0** and **Orbit Zero 1.5.0**. PS4 support starts with service 1.1.0, native app 1.4.0 and Zero 1.1.0; archive extraction and AkiraBox need the current matching apps. In Browse, choose **Platform → PS4**, **PS5** or **All platforms**. A PS4 and a PS5 edition of the same game have separate download choices.
 
-Orbit itself runs on PS5. Downloading a PS4 PKG/FPKG saves a package to your selected drive; the upcoming **1.5.0** apps let you choose **Install on PS5** from the completed download. Earlier versions need a compatible package installer. New compatible images and game folders automatically request a ShadowMount scan in 1.5.0 when it is running. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
+Orbit itself runs on PS5. Downloading a PS4 PKG/FPKG saves a package to your selected drive; the **1.5.0** apps let you choose **Install on PS5** from the completed download. Earlier versions need a compatible package installer. New compatible images and game folders automatically request a ShadowMount scan in 1.5.0 when it is running. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
 
-**DLC is also coming in 1.5.0.** Open **Add-ons** or **Add-ons (count)** on a game’s details to browse expansions, content packs, activation packages and bundles. Check the required base game before downloading or installing. See [the DLC guide](add-ons.md).
+**DLC is available in 1.5.0.** Open **Add-ons** or **Add-ons (count)** on a game’s details to browse expansions, content packs, activation packages and bundles. Check the required base game before downloading or installing. See [the DLC guide](add-ons.md).
 
 The instructions below use the default Store layout. If you choose another interface, see [where to find its settings](appearance.md#find-settings-after-switching).
 
@@ -118,7 +118,9 @@ Existing `autoload.txt` lists are supported. Configure etaHEN auto-start manuall
 
 ### One-step updates in 1.5.0
 
-The upcoming **1.5.0** apps add **Update Orbit** in Updates. It installs the TV app and download service together. With your local ELF loader running on port 9021, Orbit restarts its service and resumes the downloads it interrupted. **Restart Orbit** restarts just the service. Reopen the TV app after its update to use the new version. If the loader is unavailable, follow the manual launch instructions shown by Orbit.
+The **1.5.0** apps provide **Update Orbit** in Updates. It installs the TV app and download service together. With your local ELF loader running on port 9021, Orbit restarts its service and resumes the downloads it interrupted. **Restart Orbit** restarts just the service. Reopen the TV app after its update to use the new version. If the loader is unavailable, follow the manual launch instructions shown by Orbit.
+
+In the native app, open **App settings → Updates**. In the browser’s Store layout, open **App settings → Update / reinstall**; other browser layouts use **Settings → Updates**.
 
 The separate controls below remain useful for older apps and manual updates.
 
@@ -144,6 +146,8 @@ The following steps apply to the browser version. The download service and nativ
 **Keep a version that can read your queue.** After using 0.4.2 or newer, do not return to an older queue format. After using TorBox, keep Orbit 0.8.0 or later while those jobs remain in your queue or history. For PS4 browsing, use the service and native versions listed above; refreshing the catalogue alone does not add PS4 support to an older app.
 
 ## Update the TV app
+
+On 1.5.0 or later, **Update Orbit** updates the TV app and service together; see [one-step updates](#one-step-updates-in-150). Reopen the TV app after updating it. The following separate controls are useful for older versions or when updating only the TV app.
 
 In the native app, open **App settings → Updates → TV app**, check for updates and choose **Update TV app**. Confirm **Replace with this release** if the existing image was copied manually. After installation, close and reopen the app.
 

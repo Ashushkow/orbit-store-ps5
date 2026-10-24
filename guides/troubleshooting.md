@@ -47,7 +47,7 @@ If Orbit still shows BlackBox's icon, open a bug report with your firmware, your
 
 ## An update says Orbit is already running
 
-The replacement was saved for the next start. Open **App settings → Update / reinstall**, compare **Running** and **Saved for next start**, choose **Stop Orbit to restart**, then launch the saved `/data/orbit-store/orbit_store.elf` or a synced manager copy. Pairing and the queue stay saved. A manually imported old ELF starts that older copy unless you replace it.
+The replacement was saved for the next start. Open **App settings → Update / reinstall** (or **Settings → Updates**) and compare **Running** with **Saved for next start**. In 1.5.0, use **Restart Orbit** with your ELF loader running on port 9021. On older versions, choose **Stop Orbit to restart**, then launch the saved `/data/orbit-store/orbit_store.elf` or a synced manager copy. Pairing and the queue stay saved. A manually imported old ELF starts that older copy unless you replace it.
 
 ## AkiraBox does not enter Downloads
 
@@ -133,13 +133,13 @@ If the file exists but does not appear in Library or on the home screen, check i
 
 ## Add-ons are missing or do not work
 
-Add-ons are coming in **1.5.0**; older apps do not gain the page through a catalogue refresh. Use the matching apps and running PS5 service when that release is available. If the page is empty, enable the relevant sources, clear its filters and refresh the catalogue. A page opened from a game’s details initially shows only that game’s extras.
+Add-ons are available in **1.5.0**; older apps do not gain the page through a catalogue refresh. Use matching apps and the running PS5 service from the same release. If the page is empty, enable the relevant sources, clear its filters and refresh the catalogue. A page opened from a game’s details initially shows only that game’s extras.
 
 If a downloaded DLC does not appear in the game, check that its package was installed, then compare the required base-game edition, title ID, region and version. A title-ID match alone does not confirm compatibility. Activation packages need their content already present in the game; bundles require selecting the individual packages to install. Orbit does not fetch missing game updates or install an entire bundle automatically. See [the DLC guide](add-ons.md).
 
 ## A downloaded PKG or FPKG game doesn't appear
 
-PKG and FPKG options are `.pkg` packages, for PS4 or PS5 games. Orbit saves them to the chosen drive's `homebrew` folder. In the upcoming **1.5.0** apps, open the completed download’s **Downloaded files**, select the package and choose **Install on PS5**. With Zero, finish transferring it to the PS5 first. Earlier versions need a compatible package installer. ShadowMountPlus does not mount `.pkg` files, so **Scan for games** is not a substitute for installation.
+PKG and FPKG options are `.pkg` packages, for PS4 or PS5 games. Orbit saves them to the chosen drive's `homebrew` folder. In **1.5.0** and later, open the completed download’s **Downloaded files**, select the package and choose **Install on PS5**. With Zero, finish transferring it to the PS5 first. Earlier versions need a compatible package installer. ShadowMountPlus does not mount `.pkg` files, so **Scan for games** is not a substitute for installation.
 
 Check installation status separately from download completion. If **Check installation** appears after a restart or lost response, use it and check the PS5 home screen before trying again. Orbit retains the downloaded file if installation fails. See [installation help](install-games.md#if-installation-needs-attention).
 
@@ -153,7 +153,7 @@ If you report a problem, include the title ID (`CUSA` for PS4, `PPSA` for PS5), 
 
 Open **App settings → Diagnostics → View diagnostics**, then **Copy diagnostic report**. If automatic copying is unavailable, Orbit shows selectable report text. Reports omit pairing codes, access tokens, download links, game names and paths. Nothing is sent automatically.
 
-The upcoming **1.5.0** apps also let you save a report as a file. On the TV app, choose **More settings → Save diagnostic report**, then a drive. In Zero, choose **Download settings → Export log**. Zero includes the PS5 report when connected. These exports omit game titles, filenames, folders, links, passwords and tokens; attach the saved file yourself when reporting a problem.
+The **1.5.0** apps also let you save a report as a file. On the TV app, choose **More settings → Save diagnostic report**, then a drive. In Zero, choose **Download settings → Export log**. Zero includes the PS5 report when connected. These exports omit game titles, filenames, folders, links, passwords and tokens; attach the saved file yourself when reporting a problem.
 
 ![App settings with local diagnostics](../assets/0.9.0/desktop-diagnostics.jpg)
 

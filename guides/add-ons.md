@@ -1,8 +1,8 @@
 # Find, download and install DLC
 
-**Coming in 1.5.0.** Add-ons are prepared for the next release and are not in the published 1.4.0 apps. Use the matching Orbit Store ELF, native PS5 app and Orbit Zero from the same release. Refreshing the catalogue alone does not add the Add-ons page to older apps.
+**Available in 1.5.0.** Use the matching Orbit Store ELF, native PS5 app and Orbit Zero from the same release. Refreshing the catalogue alone does not add the Add-ons page to older apps.
 
-The prepared catalogue has **408 add-ons for 43 games**, with **409 download options**. These are counted separately from base games.
+The catalogue has **408 add-ons for 43 games**, with **409 download options**. These are counted separately from base games.
 
 ## Find add-ons
 
@@ -49,4 +49,4 @@ Downloading, transferring and installing have separate progress. See [installing
 
 Check your enabled sources and clear the Add-ons filters. If you opened the page from a game's details, it is showing extras for that game; return to all add-ons to browse the full selection. Refresh the catalogue in settings to check for additions.
 
-Older app versions continue receiving compatible base-game catalogues. Update the app and its matching PS5 service to use Add-ons when 1.5.0 is available. For a problem report, include the add-on, selected source and format, base-game title ID/version and exact error.
+Older app versions continue receiving compatible base-game catalogues. Update the app and its matching PS5 service to use Add-ons in 1.5.0 or later. For a problem report, include the add-on, selected source and format, base-game title ID/version and exact error.

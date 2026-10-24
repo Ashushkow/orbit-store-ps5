@@ -1,6 +1,6 @@
 # Install games without leaving Orbit
 
-**Coming in 1.5.0.** These controls are prepared for the next release and are not in the published 1.4.0 apps. Use the matching Orbit Store ELF, native app and Orbit Zero from the same release. Refreshing the catalogue alone does not add installation controls.
+**Available in 1.5.0.** Use the matching Orbit Store ELF, native app and Orbit Zero from the same release. Refreshing the catalogue alone does not add installation controls.
 
 ## Install a downloaded game
 
