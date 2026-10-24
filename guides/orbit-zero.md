@@ -73,7 +73,7 @@ In the Store interface, **New on Orbit** appears first in Discover, followed by 
 
 The current catalogue includes 919 PS4 games, with raw PKG/FPKG files and single ZIP, RAR or 7z archives among their download options. Choose a source and **This computer** or a PS5 destination just as you would for a PS5 game. The computer-download route also works with the PS5’s internet access blocked. The **1.5.0** apps provide **Install on PS5** after the transfer finishes. Earlier versions need a compatible package installer. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
 
-## DLC and add-ons in 1.5.0
+## DLC and add-ons
 
 Orbit 1.5.0 adds **Add-ons** next to Browse in all four interfaces. Search by DLC or base-game name, or open **Add-ons (count)** from a game’s details. Review the type, contents and base-game requirements before choosing a source.
 

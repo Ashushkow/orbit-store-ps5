@@ -59,7 +59,7 @@ Some files need an Archive.org account. Follow [Archive.org sign-in](downloads.m
 
 ## Archive needs a password
 
-Orbit automatically tries the [known source passwords](../README.md#automatic-archive-extraction-120). If the archive needs a different one, choose **Enter archive password**, enter the source’s password exactly, then **Retry extraction**. Keep the downloaded archive and enough free space for its extracted files. A corrupt or unsupported archive can still fail with the correct password.
+Orbit automatically tries the [known source passwords](../README.md#automatic-archive-extraction). If the archive needs a different one, choose **Enter archive password**, enter the source’s password exactly, then **Retry extraction**. Keep the downloaded archive and enough free space for its extracted files. A corrupt or unsupported archive can still fail with the correct password.
 
 ## Vikingfile does not enter Downloads
 
@@ -82,6 +82,7 @@ If the drive still does not appear, include your firmware, Orbit and ShadowMount
 - **Drive disconnected:** reconnect the original destination. Orbit does not silently switch to a different drive.
 - **Not enough space:** free space on the chosen destination, considering unfinished downloads, then retry.
 - **Source changed:** keep the partial until you decide whether to remove it and restart. Orbit will not append a different file to it.
+- **Partial file deleted or empty:** choose **Retry**. In 1.5.0 and later, Orbit starts that download again from the beginning on the same drive.
 
 Parallel connections can help only when supported by the host and file identity. Provider speed limits, network conditions and drive performance still apply.
 

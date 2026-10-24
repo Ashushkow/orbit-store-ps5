@@ -116,7 +116,7 @@ Existing `autoload.txt` lists are supported. Configure etaHEN auto-start manuall
 
 ## Update the download service
 
-### One-step updates in 1.5.0
+### One-step updates
 
 The **1.5.0** apps provide **Update Orbit** in Updates. It installs the TV app and download service together. With your local ELF loader running on port 9021, Orbit restarts its service and resumes the downloads it interrupted. **Restart Orbit** restarts just the service. Reopen the TV app after its update to use the new version. If the loader is unavailable, follow the manual launch instructions shown by Orbit.
 
@@ -145,7 +145,7 @@ The following steps apply to the browser version. The download service and nativ
 
 ## Update the TV app
 
-On 1.5.0 or later, **Update Orbit** updates the TV app and service together; see [one-step updates](#one-step-updates-in-150). Reopen the TV app after updating it. The following separate controls are useful for older versions or when updating only the TV app.
+On 1.5.0 or later, **Update Orbit** updates the TV app and service together; see [one-step updates](#one-step-updates). Reopen the TV app after updating it. The following separate controls are useful for older versions or when updating only the TV app.
 
 In the native app, open **App settings → Updates → TV app**, check for updates and choose **Update TV app**. Confirm **Replace with this release** if the existing image was copied manually. After installation, close and reopen the app.
 

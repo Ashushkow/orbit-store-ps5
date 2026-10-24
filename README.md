@@ -323,7 +323,7 @@ Source choices are saved on the console and shared by paired devices. Turning of
 
 On a paired phone, these steps open on the PS5. In Orbit Zero, they open on your computer. See the [full provider instructions](guides/downloads.md#akirabox-verify-then-wait).
 
-### Automatic archive extraction (1.2.0)
+### Automatic archive extraction
 
 Orbit automatically extracts supported single-file **ZIP, RAR and 7z** downloads. Orbit Store extracts on the selected PS5 drive; Orbit Zero extracts on your computer before transferring the extracted files to the PS5. Keep enough free space for both the archive and its extracted files.
 
