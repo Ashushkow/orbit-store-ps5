@@ -4,7 +4,7 @@
 
 Orbit runs on your PS5. Browse games, compare their available sources and formats, and download a single file directly to the console or an attached drive. Open the native TV app from your Games row, or pair a phone or computer to manage the same queue over your local network.
 
-Explore **2,026 games: 1,107 PS5 games and 919 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games and corrected links arrive through catalogue updates.
+Explore **2,026 games: 1,107 PS5 games and 919 PS4 games**, plus **445 DLCs and add-ons for 78 games**, with single-file downloads from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games, add-ons and corrected links arrive through catalogue updates.
 
 PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, or **Orbit Zero 1.1.0**. Orbit itself runs on PS5. See [PS4 games on PS5](guides/downloads.md#ps4-games-on-ps5) for package download and installation guidance.
 
@@ -25,7 +25,7 @@ PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, o
 - **Optional TorBox downloads.** Connect your own account to use TorBox for supported links, or download directly from the original provider. See [TorBox setup](guides/downloads.md#optional-download-through-torbox) for account and host limits.
 - **Archive.org sign-in.** Sign in from the PS5 apps or Orbit Zero to access downloads that require an account. See [account setup](guides/downloads.md#archiveorg-sign-in).
 - **A Library for your drives.** See installed games and available files. Manage compatible sources through ShadowMount.
-- **DLC comes to Orbit.** Browse **408 add-ons for 43 games**, including expansions, content packs, activation packages and bundles. Open **Add-ons** or find extras from a game’s details. Available across the PS5 apps and Orbit Zero in all four interfaces. See the [DLC guide](guides/add-ons.md).
+- **DLC comes to Orbit.** Browse **445 add-ons for 78 games**, including expansions, content packs, activation packages and bundles. Open **Add-ons** or find extras from a game’s details. Available across the PS5 apps and Orbit Zero in all four interfaces. See the [DLC guide](guides/add-ons.md).
 - **Install games without leaving Orbit.** Choose **Install on PS5** after a PKG/FPKG finishes downloading or transferring. Compatible images and game folders trigger a ShadowMount scan automatically when it is running. See [installing downloaded games](guides/install-games.md).
 - **Know what your firmware can run.** Download choices show known firmware requirements. Options that do not match your PS5 are listed last with a warning and remain selectable.
 - **Download notifications on PS5.** Get a console notification when a download finishes or fails, with an on/off setting.
@@ -58,7 +58,7 @@ The TV app includes Orbit's download service and can start it through a compatib
 
 Open Orbit from your Games row and use the controller to browse, explore and choose a download. The native app shares your catalogue, favourites and download queue with the browser version.
 
-*Discover previews the current catalogue in the Store interface with Cricket 24 selected. Game details and download options show 1.2.0, and Browse shows the native app from 1.1.0. These previews are rendered locally; other screenshots show existing workflows with illustrative storage and download values.*
+*Discover previews the current catalogue in the Store interface with Bully selected. Game details and download options show 1.2.0, and Browse shows the native app from 1.1.0. These previews are rendered locally; other screenshots show existing workflows with illustrative storage and download values.*
 
 ### Discover, browse and choose a download
 
@@ -66,7 +66,7 @@ Open Orbit from your Games row and use the controller to browse, explore and cho
 
 **Store (default)**
 
-![Orbit Store Discover with Cricket 24 selected and Persona 5 Royal sixth in New on Orbit](assets/1.3.5/store-discover-cricket-24.png)
+![Orbit Store 1.5.0 Discover with Bully selected](assets/1.5.0/store-discover-bully.jpg)
 
 **Keep exploring.** All games gives each title its own tile. Move through the grid with your controller; more games appear as you keep scrolling.
 

@@ -44,7 +44,7 @@ Library reads installed games and drive sources from a compatible ShadowMount v1
 
 Other changes in 1.5.0: known firmware requirements on download options, with incompatible choices warned and sorted last rather than blocked; Zero remembers the last paired firmware until unpairing. PS5 download completion/failure notifications have an on/off setting. Update Orbit installs the TV app and service together, then the service can restart through a local ELF loader on port 9021 and resume interrupted downloads; Restart Orbit is also available. Native More settings → Save diagnostic report and Zero Download settings → Export log save private-data-free reports locally. Zero adds per-stage ETA and transfer read-ahead.
 
-DLC support is available in 1.5.0. The add-on catalogue has 408 add-ons (402 PS4 and 6 PS5), 409 download options and 43 associated base games. These counts are separate from game counts and base-game download options.
+DLC support is available in 1.5.0. The add-on catalogue has 445 add-ons (416 PS4 and 29 PS5), 447 download options and 78 associated base games. These counts are separate from game counts and base-game download options.
 
 Add-ons follows Browse in navigation across browser, native PS5 and Zero in Store, Crossbar, Cinema and Panorama. Add-ons (count) on game details opens the collection filtered to that base game. Search matches add-on and base-game names; filters include Platform, Type, Source and Region, with Recently added as the default order. Tiles identify the add-on, base game and type; artwork falls back to the base game.
 
