@@ -1,6 +1,6 @@
 # Choose your Orbit interface
 
-Orbit Store 1.5.0 and Orbit Zero 1.5.0 offer four interfaces: **Store**, **Crossbar**, **Cinema** and **Panorama**. For the native PS5 app, use **1.9.0**, included in the same release. Each changes the layout and navigation while keeping your catalogue, favourites and download queue.
+Orbit Store 1.5.0 and Orbit Zero 1.5.0 offer four interfaces: **Store**, **Crossbar**, **Cinema** and **Panorama**. For the native PS5 app, use **1.9.1**, included in the same release. Each changes the layout and navigation while keeping your catalogue, favourites and download queue.
 
 ## Switch interfaces
 
@@ -28,7 +28,7 @@ To return to the default later, open Appearance again, choose **Store** and conf
 
 ### Store
 
-![Orbit Store 1.5.0 Discover with Bully selected](../assets/1.5.0/store-discover-bully.jpg)
+![Orbit Store 1.5.0 Discover with NieR:Automata selected](../assets/1.5.0/store-discover-nier-automata.jpg)
 
 ### Crossbar
 

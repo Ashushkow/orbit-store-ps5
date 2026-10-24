@@ -14,7 +14,7 @@ On PS5, **Notify me when downloads finish or fail** in Storage settings controls
 
 **Discover opens first.** In the default Store interface, explore the featured game and **New on Orbit** first, followed by **Latest releases**. New on Orbit shows up to 40 games, with selected highlights first. Remaining places show recent catalogue additions, ordered by game release date. Move down to All games for the full collection. The grid loads more games as you scroll, largest downloads first. Each game's size is its smallest available option from your enabled sources.
 
-![Orbit Store 1.5.0 Discover with Bully selected](../assets/1.5.0/store-discover-bully.jpg)
+![Orbit Store 1.5.0 Discover with NieR:Automata selected](../assets/1.5.0/store-discover-nier-automata.jpg)
 
 *Store Discover in Orbit 1.5.0, rendered locally from the browser app. Crossbar, Cinema and Panorama arrange the same collections differently; see the [appearance guide](appearance.md).*
 

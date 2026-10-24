@@ -4,7 +4,7 @@
 
 The official project is https://github.com/saawant12/orbit-store-ps5. Orbit Store has no official social media accounts. It is free to use and does not accept donations or payments.
 
-The current release is Orbit Store 1.5.0, with native TV app 1.9.0 and Orbit Zero 1.5.0. Use matching files from the same release; the native app and download service have separate version numbers.
+The current release is Orbit Store 1.5.0, with native TV app 1.9.1 and Orbit Zero 1.5.0. Use matching files from the same release; the native app and download service have separate version numbers.
 
 ## PS4 and PS5 games
 

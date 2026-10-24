@@ -20,7 +20,7 @@ Orbit Zero includes PS4 and PS5 browsing and the same 11 interface languages as 
 
 ## PS4 and PS5 games
 
-The catalogue includes both platforms. The current release pairs **Orbit Store 1.5.0**, **native app 1.9.0** and **Orbit Zero 1.5.0**. PS4 support starts with service 1.1.0, native app 1.4.0 and Zero 1.1.0; archive extraction and AkiraBox need the current matching apps. In Browse, choose **Platform → PS4**, **PS5** or **All platforms**. A PS4 and a PS5 edition of the same game have separate download choices.
+The catalogue includes both platforms. The current release pairs **Orbit Store 1.5.0**, **native app 1.9.1** and **Orbit Zero 1.5.0**. PS4 support starts with service 1.1.0, native app 1.4.0 and Zero 1.1.0; archive extraction and AkiraBox need the current matching apps. In Browse, choose **Platform → PS4**, **PS5** or **All platforms**. A PS4 and a PS5 edition of the same game have separate download choices.
 
 Orbit itself runs on PS5. Downloading a PS4 PKG/FPKG saves a package to your selected drive; the **1.5.0** apps let you choose **Install on PS5** from the completed download. Earlier versions need a compatible package installer. New compatible images and game folders automatically request a ShadowMount scan in 1.5.0 when it is running. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
 

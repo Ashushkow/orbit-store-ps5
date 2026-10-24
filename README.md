@@ -11,7 +11,7 @@ When a game finishes downloading, install it without leaving Orbit. Choose **Ins
 Explore **2,026 games: 1,107 PS5 games and 919 PS4 games**, plus **445 DLCs and add-ons for 78 games**, with single-file downloads from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games, add-ons and corrected links arrive through catalogue updates. For PS4 packages, see [PS4 games on PS5](guides/downloads.md#ps4-games-on-ps5).
 
 <p>
-  <a href="assets/1.5.0/native-crossbar-discover.jpg?raw=1"><img src="assets/1.5.0/native-crossbar-discover.jpg" width="48%" alt="Native Crossbar Discover with Bully selected"></a>
+  <a href="assets/1.5.0/native-crossbar-discover.jpg?raw=1"><img src="assets/1.5.0/native-crossbar-discover.jpg" width="48%" alt="Native Crossbar Discover with NieR:Automata selected"></a>
   <a href="assets/1.5.0/native-store-game-details.jpg?raw=1"><img src="assets/1.5.0/native-store-game-details.jpg" width="48%" alt="Black Myth: Wukong game details in the native Store interface"></a>
 </p>
 
@@ -73,7 +73,7 @@ Open Orbit from your Games row and use the controller to browse, explore and cho
 
 **Store (default)**
 
-![Orbit Store 1.5.0 Discover with Bully selected](assets/1.5.0/store-discover-bully.jpg)
+![Orbit Store 1.5.0 Discover with NieR:Automata selected](assets/1.5.0/store-discover-nier-automata.jpg)
 
 **Keep exploring.** All games gives each title its own tile. Move through the grid with your controller; more games appear as you keep scrolling.
 
@@ -173,7 +173,7 @@ Download on your computer and transfer to your PS5 over your home network. Uncom
 
 Explore PS4 and PS5 games with full artwork, featured picks in New on Orbit and a shared favourites list. Browse’s **Platform** filter lets you choose PS4, PS5 or both. Choose the source and either **This computer** or a PS5 destination before starting a download.
 
-![Orbit Zero 1.5.0 Discover with Bully selected](assets/1.5.0/zero-discover-bully.jpg)
+![Orbit Zero 1.5.0 Discover with NieR:Automata selected](assets/1.5.0/zero-discover-nier-automata.jpg)
 
 ### Your PS5, at a glance
 
@@ -192,7 +192,7 @@ The desktop app supports **ARM64 and x64** computers and the same **11 interface
 | Component | Version |
 | --- | --- |
 | Orbit Store download service and browser interface (`orbit_store.elf`) | **1.5.0** |
-| Native TV app (`PPSA99177.ffpkg`) | **1.9.0** |
+| Native TV app (`PPSA99177.ffpkg`) | **1.9.1** |
 | Orbit Zero for desktop | **1.5.0** |
 
 The TV app has its own version number; these files belong to the same release. Use matching files when updating. Keep the PS5 awake while downloading or receiving transfers.

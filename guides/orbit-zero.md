@@ -8,7 +8,7 @@ Download the desktop app and matching PS5 files from [Orbit Store releases](http
 
 The current screenshots show Orbit Zero 1.5.0, rendered locally with the current catalogue.
 
-![Orbit Zero 1.5.0 Discover with Bully selected](../assets/1.5.0/zero-discover-bully.jpg)
+![Orbit Zero 1.5.0 Discover with NieR:Automata selected](../assets/1.5.0/zero-discover-nier-automata.jpg)
 
 *Discover in Orbit Zero.*
 
