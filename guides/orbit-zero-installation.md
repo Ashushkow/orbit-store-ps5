@@ -149,7 +149,7 @@ The full-screen examples below show the setup flow. Use your own PS5 address and
    - **Payload Manager → Upload and start Orbit** for its web interface, normally on port **8084**.
    - **ELF loader → Send to ELF loader** for a raw loader, normally on port **9021**.
 
-![Full-screen Orbit Zero Console with the PS5 address and Upload and start Orbit controls](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/assets/orbit-zero-development/connect-start.jpg)
+![Orbit Zero 1.5.0 Console with connection and Start Orbit on PS5 controls](../assets/1.5.0/zero-console.jpg)
 
 Zero supplies the compatible Orbit payload automatically; you do not need to find an ELF yourself. Use **Advanced** only if you changed your loader's port or want to select a custom file. Once the upload finishes, Zero waits for Orbit to start and connects automatically. If Orbit is already running, select **Connect to Orbit** instead of uploading it again.
 
@@ -213,9 +213,9 @@ To clear copies already completed, select **Clear completed cache**, review the 
 
 For compressed downloads, **Delete archives after extracting** is a separate setting and is on by default. It removes the archive after successful extraction. The extracted computer files remain until you remove their cache or enable **Automatically remove after transfer**.
 
-![Orbit Zero 1.2.0 download settings with a 1–8 download limit, computer folder, archive removal and optional automatic cache cleanup](../assets/1.2.0/orbit-zero-download-settings.jpg)
+![Orbit Zero 1.5.0 download settings with simultaneous download and recovery controls](../assets/1.5.0/zero-download-settings.jpg)
 
-*Download settings in Orbit Zero 1.2.0. The folder and free space shown are illustrative.*
+*Download settings in Orbit Zero 1.5.0.*
 
 ## Vikingfile downloads
 

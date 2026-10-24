@@ -16,6 +16,15 @@ PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, o
 
 > **Always free.** Orbit Store is free to use and will always remain free. We don’t accept donations or payments. Anyone asking for money on our behalf is not affiliated with the project.
 
+**Crossbar · Native PS5 app · Discover and game details**
+
+<p>
+  <a href="assets/1.5.0/native-crossbar-discover.jpg"><img src="assets/1.5.0/native-crossbar-discover.jpg" width="48%" alt="Native Crossbar Discover with Bully selected"></a>
+  <a href="assets/1.5.0/native-crossbar-game-details.jpg"><img src="assets/1.5.0/native-crossbar-game-details.jpg" width="48%" alt="Black Myth: Wukong game details in native Crossbar"></a>
+</p>
+
+*Select either preview to view it full size. Captured locally from the native app renderer with the current catalogue.*
+
 ## Built around the console
 
 - **A native app for your TV.** Browse, Discover, Add-ons, Library and Downloads, built for your controller. Save favourites with Square in Store, or Triangle in the other native interfaces. Your downloads keep running when you close the app.
@@ -58,7 +67,7 @@ The TV app includes Orbit's download service and can start it through a compatib
 
 Open Orbit from your Games row and use the controller to browse, explore and choose a download. The native app shares your catalogue, favourites and download queue with the browser version.
 
-*Discover previews the current catalogue in the Store interface with Bully selected. Game details and download options show 1.2.0, and Browse shows the native app from 1.1.0. These previews are rendered locally; other screenshots show existing workflows with illustrative storage and download values.*
+*The updated previews show the released Orbit 1.5.0 browser and desktop interfaces, rendered locally with the current catalogue. The separate Hungarian example shows the native app.*
 
 ### Discover, browse and choose a download
 
@@ -70,19 +79,19 @@ Open Orbit from your Games row and use the controller to browse, explore and cho
 
 **Keep exploring.** All games gives each title its own tile. Move through the grid with your controller; more games appear as you keep scrolling.
 
-![Orbit Store 1.2.0 All games grid with Oblivion Remastered selected and its background artwork](assets/1.2.0/native-discover-grid.png)
+![Orbit Store 1.5.0 All games with Oblivion Remastered selected](assets/1.5.0/store-all-games.jpg)
 
 **Find your next game.** Search by name or title ID, narrow the collection by platform, source, format, region or size, and browse the newest known releases first.
 
-![Native TV app Browse with search and Platform, Source, Format and Region filters](assets/1.1.0/native-browse.png)
+![Orbit Store 1.5.0 Browse with platform, source, format and region filters](assets/1.5.0/store-browse.jpg)
 
 **Get to know a game.** Read its description, save it to favourites, or open the three-dot menu for more information. The main download button opens your options before anything starts.
 
-![Cyberpunk 2077 in Orbit Store 1.2.0 with full artwork, description, favourites and download control](assets/1.2.0/native-details.png)
+![Black Myth: Wukong in Orbit Store 1.5.0 with Add-ons and download controls](assets/1.5.0/store-game-details.jpg)
 
 **Choose how and where to download.** Review the source, format, delivery method and drive together. Direct options download from the TV app; Vikingfile browser options open the provider page on PS5 and keep your choices when you return. See the [download guide](guides/downloads.md), including [TorBox setup](guides/downloads.md#optional-download-through-torbox).
 
-![Cyberpunk 2077 download options in Orbit Store 1.2.0 with source, delivery method and USB destination controls](assets/1.2.0/native-download-options.png)
+![Orbit Store 1.5.0 download options and automatic Vikingfile link-capture instructions](assets/1.5.0/store-download-options.jpg)
 
 ### Choose your interface
 
@@ -90,27 +99,27 @@ Make Orbit look the way you like. Open **Appearance** and choose **Store**, **Cr
 
 **Crossbar**
 
-![Crossbar Discover in the native Orbit Store app](assets/1.3.0/discover-crossbar.png)
+![Crossbar Discover in the Orbit Store 1.5.0 browser interface](assets/1.5.0/store-crossbar-discover.jpg)
 
 <br>
 
 **Cinema**
 
-![Cinema Discover in Orbit Store](assets/1.3.0/discover-cinema.png)
+![Cinema Discover in the Orbit Store 1.5.0 browser interface](assets/1.5.0/store-cinema-discover.jpg)
 
 <br>
 
 **Panorama**
 
-![Panorama Discover in Orbit Store](assets/1.3.0/discover-panorama.png)
+![Panorama Discover in the Orbit Store 1.5.0 browser interface](assets/1.5.0/store-panorama-discover.jpg)
 
-### Settings without leaving the TV app
+### Choose how Orbit works
 
 The instructions below use Store’s settings names. In the browser’s Crossbar, Cinema and Panorama interfaces, use the [Settings page equivalents](guides/appearance.md#find-settings-after-switching).
 
 Choose sources, set your default drive, pair a phone and refresh your game catalogue from one place. **Update Orbit** updates the TV app and download service together; you choose when to install or restart.
 
-![Native App settings with source choices](assets/0.9.0/native-settings.png)
+![Orbit Store 1.5.0 browser appearance, language and update settings](assets/1.5.0/store-app-settings.jpg)
 
 ### Orbit in your language
 
@@ -127,13 +136,13 @@ In Orbit Zero’s Store interface, use the globe-shaped **Language** button in t
 Pair a phone on the same network to find a game and choose its download option. Files still go to the PS5’s selected drive. Vikingfile’s provider page and any verification open on the **PS5**, even when you start from your phone.
 
 1. **Find a game.** Search the catalogue and filter the available games.
-2. **Compare options.** Check the format, size and destination before downloading.
+2. **Open the game.** Read its details and find available add-ons.
 3. **Start the provider step.** Open Vikingfile on PS5, complete verification and wait. Orbit captures the matching link and returns automatically.
 
 <p>
-  <a href="assets/0.9.0/phone-browse.jpg"><img src="assets/0.9.0/phone-browse.jpg" width="250" align="top" alt="Step 1: Phone Browse with search and game cards"></a>
-  <a href="assets/0.9.0/phone-details.jpg"><img src="assets/0.9.0/phone-details.jpg" width="250" align="top" alt="Step 2: Phone download options with source, delivery and destination"></a>
-  <a href="assets/0.9.0/phone-viking.jpg"><img src="assets/0.9.0/phone-viking.jpg" width="250" align="top" alt="Step 3: Phone Vikingfile instructions and Open download page on PS5 button"></a>
+  <a href="assets/1.5.0/phone-browse.jpg"><img src="assets/1.5.0/phone-browse.jpg" width="250" align="top" alt="Step 1: Phone Browse with search and game cards"></a>
+  <a href="assets/1.5.0/phone-game-details.jpg"><img src="assets/1.5.0/phone-game-details.jpg" width="250" align="top" alt="Step 2: Black Myth: Wukong details and Add-ons on a phone"></a>
+  <a href="assets/1.5.0/phone-download-options.jpg"><img src="assets/1.5.0/phone-download-options.jpg" width="250" align="top" alt="Step 3: Phone Vikingfile instructions and Open download page on PS5 button"></a>
 </p>
 
 *Select a screenshot to open it at full size.*
@@ -166,15 +175,15 @@ Download on your computer and transfer to your PS5 over your home network. Uncom
 
 Explore PS4 and PS5 games with full artwork, featured picks in New on Orbit and a shared favourites list. Browse’s **Platform** filter lets you choose PS4, PS5 or both. Choose the source and either **This computer** or a PS5 destination before starting a download.
 
-![Orbit Zero 1.1.0 Discover with Red Dead Redemption 2, PS4 favourites and New on Orbit before Latest releases](assets/1.1.0/orbit-zero-discover.jpg)
+![Orbit Zero 1.5.0 Discover with Bully selected](assets/1.5.0/zero-discover-bully.jpg)
 
 ### Your PS5, at a glance
 
 The Console page brings your connection, available storage, download preference and active transfers together. Pair once using **Show code on PS5**, then manage the connection from your computer.
 
-![Orbit Zero Console with connection, storage, download preference and separate download and transfer progress](assets/orbit-zero-development/console.jpg)
+![Orbit Zero 1.5.0 Console before connecting a PS5](assets/1.5.0/zero-console.jpg)
 
-*Desktop interface previews. Connection, storage and transfer values are illustrative.*
+*Console before connecting a PS5. Its storage and transfers appear after pairing.*
 
 The desktop app supports **ARM64 and x64** computers and the same **11 interface languages** as Orbit Store. Use **Language** in Store’s top bar, or **Settings → Language** in the other interfaces. Choose a language, or **System language** to follow your computer. Keep Orbit Zero and the PS5 awake while transferring; the computer needs internet to fetch new downloads.
 

@@ -14,13 +14,13 @@ On PS5, **Notify me when downloads finish or fail** in Storage settings controls
 
 **Discover opens first.** In the default Store interface, explore the featured game and **New on Orbit** first, followed by **Latest releases**. New on Orbit starts with selected highlights, then shows recent additions ordered by game release date. Move down to All games for the full collection. The grid loads more games as you scroll, largest downloads first. Each game's size is its smallest available option from your enabled sources.
 
-![Store Discover in Orbit 1.3.0 with Uncharted 4 selected](../assets/1.3.0/store-discover-uncharted.png)
+![Orbit Store 1.5.0 Discover with Bully selected](../assets/1.5.0/store-discover-bully.jpg)
 
-*Store Discover in Orbit 1.3.0, rendered locally from the browser app. Crossbar, Cinema and Panorama arrange the same collections differently; see the [appearance guide](appearance.md).*
+*Store Discover in Orbit 1.5.0, rendered locally from the browser app. Crossbar, Cinema and Panorama arrange the same collections differently; see the [appearance guide](appearance.md).*
 
 Switch to **Browse** when you want search and filters. It defaults to **Release date (newest first)**. Games without a recorded date follow alphabetically. Search by game name or title ID, filter by platform, source, format, region or download size, and change the sort order. **Reset filters** restores the default. Missing dates and other metadata can be added later through catalogue updates.
 
-![Native Browse with platform, source, format and region filters](../assets/1.1.0/native-browse.png)
+![Orbit Store 1.5.0 Browse with platform, source, format and region filters](../assets/1.5.0/store-browse.jpg)
 
 *Use filters to find options that fit your drive and preferred format. Sizes reflect the download option you choose.*
 
@@ -57,7 +57,7 @@ Settings paths in this guide use the Store layout. For the browser’s other lay
 
 On the game page, select the main download button to open **Download options**. This reviews your choices without starting a transfer. Open **Source** to choose a format and provider, **Download using** for direct or TorBox delivery, and **Save to** for storage attached to the PS5. The storage panel shows **Free now**, **Unfinished downloads**, and **After queue + this download**. Back returns to your previous selection.
 
-![Download options with source, delivery method and destination](../assets/0.9.0/desktop-details.jpg)
+![Orbit Store 1.5.0 source, delivery and destination choices](../assets/1.5.0/store-download-options.jpg)
 
 *Different sources can offer different formats or sizes for the same game. Select the exact option you intend to download.*
 
@@ -114,11 +114,7 @@ Release 1.3.5 removed 225 unavailable Archive.org options. Signing in helps with
 3. Open a game in either Orbit app and use its main button to open **Download options**. Select **Source**, then **Download using → TorBox**, and choose your destination drive.
 4. Select **Download via TorBox**. Follow preparation and transfer progress in Downloads, where the job is labelled **via TorBox**.
 
-![Browser Debrid settings with a sample connected TorBox account and an empty API-key field](../assets/0.9.0/desktop-torbox-setup.jpg)
-
 *Connect the account in the browser once. The native TV app and paired devices share that connection. If you are not connected, choose **Set up TorBox** under a game’s **Download using** options. In the TV app this opens the browser with your game, source and destination selected; connect in App settings, then return to the game.*
-
-![Game details with TorBox selected and a PS5 destination drive](../assets/0.9.0/desktop-torbox-details.jpg)
 
 Orbit submits supported requests to TorBox without rejecting them based on its advertised file-size limit. TorBox still decides whether the request is allowed; any returned limit or account error appears in Downloads.
 
@@ -175,33 +171,33 @@ Changes apply on the next attempt. Some providers require a longer wait. Your pa
 3. Complete any verification yourself, then wait without pressing the provider’s **Download** button.
 4. Orbit checks the ready link against the selected file and returns automatically. Follow its progress in **Downloads**.
 
-![Vikingfile instructions inside Download options](../assets/0.9.0/desktop-viking.jpg)
+![Vikingfile instructions: complete verification, then wait for automatic link capture](../assets/1.5.0/store-download-options.jpg)
 
-*This screenshot shows an older interface. In 1.3.5, complete verification and wait for automatic capture on PS5; you no longer need to press Vikingfile’s Download button.*
+*Orbit 1.5.0 shows the automatic-capture instructions before you open the provider page.*
 
 You can start the session from a paired phone, but the provider page and verification still appear on the PS5. There is no need to paste a generated link. If the session expires or reports no matching file, return to Orbit and start that option again. Only one browser verification session can run at a time; **Cancel verification** stops the pending session without adding a download.
 
 When a Vikingfile option offers **Download directly**, you can use that button to start it. Otherwise, follow the browser steps above.
 
 <table>
-  <tr><th>Choose an option on your phone</th><th>Start the PS5 browser step</th></tr>
+  <tr><th>Open the game on your phone</th><th>Choose a download and start the PS5 browser step</th></tr>
   <tr>
-    <td valign="top" width="50%"><img src="../assets/0.9.0/phone-details.jpg" width="280" alt="Phone game page with source and format options"></td>
-    <td valign="top" width="50%"><img src="../assets/0.9.0/phone-viking.jpg" width="280" alt="Phone Vikingfile instructions and Open download page on PS5 button"></td>
+    <td valign="top" width="50%"><img src="../assets/1.5.0/phone-game-details.jpg" width="280" alt="Black Myth: Wukong details with Add-ons on a phone"></td>
+    <td valign="top" width="50%"><img src="../assets/1.5.0/phone-download-options.jpg" width="280" alt="Phone Vikingfile instructions and Open download page on PS5 button"></td>
   </tr>
 </table>
 
-*Interface previews use example storage and account data. Complete the Vikingfile download steps on your PS5.*
+*Complete provider verification on your PS5, then wait for Orbit to capture the link.*
 
 ## Follow your queue
 
 Use **Active**, **Finished**, **Failed**, and **Cancelled** to find a transfer. Move waiting items up or down, pause and resume, or cancel. Cancelled items have their own view; Finished contains successfully completed downloads.
 
-![Native Downloads showing paused and queued sample transfers labelled via TorBox](../assets/0.9.0/native-downloads.png)
+![Orbit Store 1.5.0 Downloads with an empty queue](../assets/1.5.0/store-downloads.jpg)
 
-<p><a href="../assets/0.9.0/phone-downloads.jpg"><img src="../assets/0.9.0/phone-downloads.jpg" width="320" alt="Phone Downloads showing the same sample TorBox queue"></a></p>
+<p><a href="../assets/1.5.0/phone-downloads.jpg"><img src="../assets/1.5.0/phone-downloads.jpg" width="320" alt="Orbit Store 1.5.0 Downloads on a phone"></a></p>
 
-*The TV app and paired phone show the same queue, illustrated here with sample paused and queued jobs.*
+*Browser and phone views of an empty queue in Orbit 1.5.0. The native TV app reads the same queue.*
 
 New supported large downloads use up to eight connections. Existing partials retain their original layout. Speed depends on the provider, network and drive. Pause, Resume and Cancel control the whole file.
 

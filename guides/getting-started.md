@@ -54,7 +54,7 @@ For account-required Archive.org files, open **App settings → Archive.org** in
 
 A drive connected to your phone or computer is not a PS5 destination. Attach your external drive to the console; Orbit uses its `homebrew` folder when available.
 
-![Choose download sources and acknowledge the notice](../assets/0.9.0/desktop-sources.jpg)
+![Orbit Store 1.5.0 download source selection and notice](../assets/1.5.0/store-sources.jpg)
 
 *Sources are your choice. Turning one off later hides its options and pauses unfinished downloads without deleting files. Interface previews use example storage data.*
 
@@ -86,11 +86,11 @@ Orbit Store and Orbit Zero support **11 interface languages**: English, German, 
 - **Browser, phone or computer:** open **App settings → Language** in Store, or **Settings → Language** in the other interfaces. Choose a language, or **Automatic** to follow your browser’s preference. The interface reloads after you choose. This preference is saved for that browser; it does not change other paired devices or the PS5’s system language.
 - **Orbit Zero desktop:** select the globe-shaped **Language** button in Store’s top bar, or **Settings → Language** in the other interfaces. Choose a language or **System language**. The choice is saved on that computer, and changing it keeps your downloads running.
 
-![Browser App settings with the language selector open](../assets/0.9.0/desktop-language.jpg)
+![Orbit Store 1.5.0 appearance and language controls](../assets/1.5.0/store-language.jpg)
 
-<img src="../assets/0.9.0/phone-language.jpg" width="300" alt="The Language setting near the top of App settings on a phone">
+<img src="../assets/1.5.0/phone-language.jpg" width="300" alt="Appearance and Language in App settings on a phone">
 
-*Browser interface previews are from Orbit 0.9.0; current versions also include Hungarian. Game names, descriptions and provider pages may keep their original language. Changing Orbit’s language does not change a downloaded game’s language.*
+*Browser interface previews are from Orbit 1.5.0. Game names, descriptions and provider pages may keep their original language. Changing Orbit’s language does not change a downloaded game’s language.*
 
 ## Choose a default drive
 
@@ -134,8 +134,6 @@ The following steps apply to the browser version. The download service and nativ
 4. Run `/data/orbit-store/orbit_store.elf` or a manager copy you opted to keep in sync. Reopen Orbit and resume any paused downloads. With the ELF loader running, the TV app can also start the newer saved service.
 
 **Running**, **Saved for next start**, and **Latest release** are separate. Uploading a new ELF while Orbit is running saves it for the next start; it does not change the active session. A manually imported copy outside sync must be replaced yourself. Keep the icon and saved data.
-
-![App settings with separate controls for the download service and TV app](../assets/0.9.0/desktop-settings.jpg)
 
 *App updates install features and fixes. Refresh catalogue updates game data without reinstalling the app.*
 

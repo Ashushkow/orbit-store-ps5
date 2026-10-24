@@ -28,90 +28,90 @@ To return to the default later, open Appearance again, choose **Store** and conf
 
 ### Store
 
-![Store Discover with Uncharted 4 selected](../assets/1.3.0/store-discover-uncharted.png)
+![Orbit Store 1.5.0 Discover with Bully selected](../assets/1.5.0/store-discover-bully.jpg)
 
 ### Crossbar
 
-![Crossbar Discover in the native Orbit Store app](../assets/1.3.0/discover-crossbar.png)
+![Crossbar Discover in the Orbit Store 1.5.0 browser interface](../assets/1.5.0/store-crossbar-discover.jpg)
 
 <details>
 <summary>See more: Browse, game details and Downloads in Crossbar</summary>
 
 **Browse**
 
-![Crossbar Browse in the native app with Uncharted games](../assets/1.3.0/native-crossbar-browse.png)
+![Orbit Store 1.5.0 Crossbar browse](../assets/1.5.0/store-crossbar-browse.jpg)
 
 <br>
 
 **Game details**
 
-![Uncharted 4 game details in the native Crossbar app](../assets/1.3.0/native-crossbar-game-details.png)
+![Orbit Store 1.5.0 Crossbar game details](../assets/1.5.0/store-crossbar-game-details.jpg)
 
 <br>
 
 **Downloads**
 
-![Crossbar Downloads in the native app with an active and queued game](../assets/1.3.0/native-crossbar-downloads.png)
+![Orbit Store 1.5.0 Crossbar Downloads with an empty queue](../assets/1.5.0/store-crossbar-downloads.jpg)
 
-*Download progress and storage in these previews are illustrative.*
+*Downloads with an empty queue.*
 
 </details>
 
 ### Cinema
 
-![Cinema Discover in Orbit Store](../assets/1.3.0/discover-cinema.png)
+![Cinema Discover in the Orbit Store 1.5.0 browser interface](../assets/1.5.0/store-cinema-discover.jpg)
 
 <details>
 <summary>See more: Browse, game details and Downloads in Cinema</summary>
 
 **Browse**
 
-![Cinema Browse with the PS4 platform filter and largest downloads first](../assets/1.3.0/cinema-browse.png)
+![Orbit Store 1.5.0 Cinema browse](../assets/1.5.0/store-cinema-browse.jpg)
 
 <br>
 
 **Game details**
 
-![Uncharted 4 game details in Cinema](../assets/1.3.0/cinema-game-details.png)
+![Orbit Store 1.5.0 Cinema game details](../assets/1.5.0/store-cinema-game-details.jpg)
 
 <br>
 
 **Downloads**
 
-![Cinema Downloads with Cyberpunk 2077 selected](../assets/1.3.0/cinema-downloads.png)
+![Orbit Store 1.5.0 Cinema Downloads with an empty queue](../assets/1.5.0/store-cinema-downloads.jpg)
 
-*Download progress and storage in these previews are illustrative.*
+*Downloads with an empty queue.*
 
 </details>
 
 ### Panorama
 
-![Panorama Discover in Orbit Store](../assets/1.3.0/discover-panorama.png)
+![Panorama Discover in the Orbit Store 1.5.0 browser interface](../assets/1.5.0/store-panorama-discover.jpg)
 
 <details>
 <summary>See more: Browse, game details and Downloads in Panorama</summary>
 
 **Browse**
 
-![Panorama Browse with the PS4 platform filter and largest downloads first](../assets/1.3.0/panorama-browse.png)
+![Orbit Store 1.5.0 Panorama browse](../assets/1.5.0/store-panorama-browse.jpg)
 
 <br>
 
 **Game details**
 
-![Uncharted 4 game details in Panorama](../assets/1.3.0/panorama-game-details.png)
+![Orbit Store 1.5.0 Panorama game details](../assets/1.5.0/store-panorama-game-details.jpg)
 
 <br>
 
 **Downloads**
 
-![Panorama Downloads with active, queued and completed games](../assets/1.3.0/panorama-downloads.png)
+![Orbit Store 1.5.0 Panorama Downloads with an empty queue](../assets/1.5.0/store-panorama-downloads.jpg)
 
-*Download progress and storage in these previews are illustrative.*
+*Downloads with an empty queue.*
 
 </details>
 
-*These previews were rendered locally from the released app code. Crossbar shows the native app; Store, Cinema and Panorama show the browser interface. Orbit Zero offers the same four choices.*
+*These previews show the Orbit 1.5.0 browser interface, rendered locally from the released app code. Orbit Zero offers the same four choices.*
 
 ## Motion and backgrounds
 
