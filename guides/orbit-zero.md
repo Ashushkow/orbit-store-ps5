@@ -31,7 +31,7 @@ Follow the [macOS, Windows and Linux installation guide](orbit-zero-installation
 
 ## Choose your interface
 
-Orbit Zero 1.4.0 offers **Store**, **Crossbar**, **Cinema** and **Panorama**. In Store, select the palette-shaped **Appearance** button in the top bar; in the other interfaces, open **Settings → Appearance**. Confirm **Keep** within 15 seconds. Your selection is saved on this computer. See the [appearance guide](appearance.md) for screenshots, motion options and navigation.
+Orbit Zero offers **Store**, **Crossbar**, **Cinema** and **Panorama**. In Store, select the palette-shaped **Appearance** button in the top bar; in the other interfaces, open **Settings → Appearance**. Confirm **Keep** within 15 seconds. Your selection is saved on this computer. See the [appearance guide](appearance.md) for screenshots, motion options and navigation.
 
 In Crossbar, Cinema and Panorama, **Settings** also contains **Download settings**, **Computer cache**, **Updates** and **Language**. **Console** continues to hold the PS5 connection and download-route preference.
 
@@ -148,7 +148,7 @@ The computer copy is kept by default. **Downloads → Download settings → Comp
 
 *Download settings in Orbit Zero 1.5.0.*
 
-To forget the console, use **Console → Connection settings → Unpair PS5**. Finish or cancel unfinished computer transfers first, including paused or interrupted transfers, because they require the original pairing to resume. Unpairing keeps files and download history.
+To forget the console, use **Console → Connection settings → Unpair PS5**. Zero blocks unpairing while transfers to that PS5 are unfinished, including paused or interrupted transfers. Finish or cancel those first; unpairing keeps files and download history. If the console has lost its pairing, use [Pair again and keep downloads](#reconnect-after-an-address-change) instead, so Zero can check and resume the saved partial files.
 
 Orbit Zero’s Library is read-only. In **1.5.0** and later, installation controls are in **Downloads**: after a package reaches the PS5, open **Downloaded files**, choose the package and select **Install on PS5**. Computer-only downloads must be sent to the console first. The PS5 performs the installation and keeps the source file. Zero does not launch games.
 

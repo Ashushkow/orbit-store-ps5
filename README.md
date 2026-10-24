@@ -6,7 +6,7 @@ Orbit runs on your PS5. Browse games, compare their available sources and format
 
 Explore **2,026 games: 1,107 PS5 games and 919 PS4 games**, plus **445 DLCs and add-ons for 78 games**, with single-file downloads from Archive.org, Vikingfile and AkiraBox. Filter by platform, choose your source and save to your preferred drive. New games, add-ons and corrected links arrive through catalogue updates.
 
-PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, or **Orbit Zero 1.1.0**. Orbit itself runs on PS5. See [PS4 games on PS5](guides/downloads.md#ps4-games-on-ps5) for package download and installation guidance.
+PS4 game browsing requires **Orbit Store 1.1.0 or later** with its matching native app, or **Orbit Zero 1.1.0 or later**. Use the latest matching apps for DLC and installation controls. Orbit itself runs on PS5. See [PS4 games on PS5](guides/downloads.md#ps4-games-on-ps5) for package download and installation guidance.
 
 [Download Orbit](https://github.com/saawant12/orbit-store-ps5/releases/latest) · [Orbit Zero](#orbit-zero-for-mac-windows-and-linux) · [Get started](guides/getting-started.md) · [Download guide](guides/downloads.md) · [DLC guide](guides/add-ons.md) · [Library guide](guides/library.md) · [Appearance guide](guides/appearance.md) · [Troubleshooting](guides/troubleshooting.md) · [Bug report format](.github/ISSUE_TEMPLATE/bug_report.md) · [Report a bug](https://github.com/saawant12/orbit-store-ps5/issues/new?template=bug_report.md) · [Request a feature](https://github.com/saawant12/orbit-store-ps5/issues/new?template=feature_request.md)
 
@@ -16,14 +16,10 @@ PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, o
 
 > **Always free.** Orbit Store is free to use and will always remain free. We don’t accept donations or payments. Anyone asking for money on our behalf is not affiliated with the project.
 
-**Crossbar · Native PS5 app · Discover and game details**
-
 <p>
-  <a href="assets/1.5.0/native-crossbar-discover.jpg"><img src="assets/1.5.0/native-crossbar-discover.jpg" width="48%" alt="Native Crossbar Discover with Bully selected"></a>
-  <a href="assets/1.5.0/native-crossbar-game-details.jpg"><img src="assets/1.5.0/native-crossbar-game-details.jpg" width="48%" alt="Black Myth: Wukong game details in native Crossbar"></a>
+  <a href="assets/1.5.0/native-crossbar-discover.jpg?raw=1"><img src="assets/1.5.0/native-crossbar-discover.jpg" width="48%" alt="Native Crossbar Discover with Bully selected"></a>
+  <a href="assets/1.5.0/native-store-game-details.jpg?raw=1"><img src="assets/1.5.0/native-store-game-details.jpg" width="48%" alt="Black Myth: Wukong game details in the native Store interface"></a>
 </p>
-
-*Select either preview to view it full size. Captured locally from the native app renderer with the current catalogue.*
 
 ## Built around the console
 
@@ -35,7 +31,7 @@ PS4 game browsing requires **Orbit Store 1.1.0** with its matching native app, o
 - **Archive.org sign-in.** Sign in from the PS5 apps or Orbit Zero to access downloads that require an account. See [account setup](guides/downloads.md#archiveorg-sign-in).
 - **A Library for your drives.** See installed games and available files. Manage compatible sources through ShadowMount.
 - **DLC comes to Orbit.** Browse **445 add-ons for 78 games**, including expansions, content packs, activation packages and bundles. Open **Add-ons** or find extras from a game’s details. Available across the PS5 apps and Orbit Zero in all four interfaces. See the [DLC guide](guides/add-ons.md).
-- **Install games without leaving Orbit.** Choose **Install on PS5** after a PKG/FPKG finishes downloading or transferring. Compatible images and game folders trigger a ShadowMount scan automatically when it is running. See [installing downloaded games](guides/install-games.md).
+- **Install games without leaving Orbit.** Once a PKG/FPKG is saved on your PS5, open its entry in **Downloads** and choose **Install on PS5**. Compatible images and game folders trigger a ShadowMount scan automatically when it is running. See [installing downloaded games](guides/install-games.md).
 - **Know what your firmware can run.** Download choices show known firmware requirements. Options that do not match your PS5 are listed last with a warning and remain selectable.
 - **Download notifications on PS5.** Get a console notification when a download finishes or fails, with an on/off setting.
 - **Control from your phone.** Pair once to browse, queue downloads and check progress on the same PS5.
@@ -203,7 +199,7 @@ The TV app has its own version number; these files belong to the same release. U
 
 Compatibility varies by PS5 firmware, loader and ShadowMount version. Library requires a compatible ShadowMount v1 local API, and available actions depend on your setup. If something goes wrong, use the [bug report format](.github/ISSUE_TEMPLATE/bug_report.md) and include your versions and the error shown. The reported etaHEN payload-toggle issue remains under investigation.
 
-Earlier supported apps continue to receive their PS5-compatible catalogue; a catalogue refresh alone does not add PS4 support to an older app. App updates add features and fixes. Your queued downloads keep the files you originally chose.
+Older apps receive only catalogue data their version supports. Some older feeds stay at their last compatible revision, so updating the app may be necessary to see newer additions. A catalogue refresh alone does not add PS4 browsing, DLC or installation controls. Your queued downloads keep the files you originally chose.
 
 ## Using the beta
 

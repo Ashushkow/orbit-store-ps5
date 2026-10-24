@@ -162,7 +162,7 @@ The layouts use the same available games and enabled sources. Browse still provi
 
 Orbit 1.5.0 adds **Add-ons** after Browse in every interface, across the browser, native PS5 app and Orbit Zero. It uses the layout’s existing search and filter controls. Crossbar gives Add-ons its own icon; Panorama shows the tile caption when selected. Open **Add-ons (count)** from a game’s details to see extras for that game.
 
-Changing interfaces does not change add-on availability, download progress or installation status. See [the DLC guide](add-ons.md) for content types and requirements. The screenshots above show earlier releases and do not yet show the Add-ons page.
+Changing interfaces does not change add-on availability, download progress or installation status. See [the DLC guide](add-ons.md) for content types and requirements.
 
 ## Where your choice is saved
 

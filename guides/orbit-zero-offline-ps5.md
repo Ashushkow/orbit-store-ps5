@@ -113,7 +113,7 @@ This is a local page served by the computer, normally on port **34179**. Its cod
 2. Open Orbit Zero. If Orbit is not running on the console, use **Start Orbit on PS5**. Zero reconnects automatically when the saved console is reachable; otherwise, select **Reconnect**.
 3. Your saved pairing is reused when valid. Resume any paused or interrupted downloads explicitly.
 
-You do not need to reinstall the native FFPKG each time. Keep the original pairing when resuming unfinished transfers.
+You do not need to reinstall the native FFPKG each time. Keep your saved pairing and partial files. If the console’s address or pairing changes, use [address and pairing recovery](orbit-zero.md#reconnect-after-an-address-change) to check and resume the existing transfer.
 
 ## Troubleshooting
 

@@ -38,11 +38,13 @@ Complete this section if relevant:
 
 - Game name and title ID (CUSA or PPSA):
 - Game platform: PS4 / PS5
+- Add-on name, if applicable:
+- Required base-game edition/version and selected bundle package, if applicable:
 - Source: Archive.org / Vikingfile / AkiraBox / other
 - File format: PKG / FPKG / exFAT / FFPFSC / other
 - Archive, if applicable: ZIP / RAR / 7z
 - Download route: direct PS5 / Orbit Zero computer
-- Stage: computer download / transfer to PS5 / download on PS5 / archive extraction / game installation
+- Stage: computer download / transfer to PS5 / download on PS5 / archive extraction / game or DLC installation / ShadowMount scan
 - Destination: internal / M.2 / USB
 - Available space:
 - Connection: Wi-Fi / Ethernet
@@ -63,11 +65,11 @@ Complete this section if relevant:
 
 Attach a screenshot of the error if possible.
 
-Immediately after reproducing the problem, before restarting Orbit:
+Immediately after reproducing the problem, before restarting Orbit, use the report option in your app:
 
-1. Open Orbit’s browser version.
-2. In Store, go to App settings → Diagnostics → View diagnostics. In Crossbar, Cinema or Panorama, use Settings → Diagnostics → View diagnostics.
-3. Select Copy diagnostic report and paste it below.
+- **Native PS5 app (1.5.0 release or later):** More settings → Save diagnostic report. Select a drive and attach the saved report.
+- **Orbit Zero:** Downloads → Download settings → Export log. In the other interfaces, use Settings → Download settings. Attach the saved report; it includes PS5 diagnostics when connected.
+- **Browser:** in Store, open App settings → Diagnostics → View diagnostics. In Crossbar, Cinema or Panorama, use Settings → Diagnostics → View diagnostics. Select Copy diagnostic report and paste it below.
 
 Recent diagnostic events reset when Orbit restarts. If Orbit cannot
 open, say so and provide the error or notification you can see.

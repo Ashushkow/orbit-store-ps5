@@ -12,7 +12,7 @@ On PS5, **Notify me when downloads finish or fail** in Storage settings controls
 
 ## Browse and choose
 
-**Discover opens first.** In the default Store interface, explore the featured game and **New on Orbit** first, followed by **Latest releases**. New on Orbit starts with selected highlights, then shows recent additions ordered by game release date. Move down to All games for the full collection. The grid loads more games as you scroll, largest downloads first. Each game's size is its smallest available option from your enabled sources.
+**Discover opens first.** In the default Store interface, explore the featured game and **New on Orbit** first, followed by **Latest releases**. New on Orbit shows up to 40 games, with selected highlights first. Remaining places show recent catalogue additions, ordered by game release date. Move down to All games for the full collection. The grid loads more games as you scroll, largest downloads first. Each game's size is its smallest available option from your enabled sources.
 
 ![Orbit Store 1.5.0 Discover with Bully selected](../assets/1.5.0/store-discover-bully.jpg)
 
@@ -95,7 +95,7 @@ Orbit Zero download details show **PS5 location** and **Computer location** whil
 
 ## Archive.org sign-in
 
-**New in 1.3.5.** Some Archive.org downloads require an account. You can still use public downloads without signing in.
+**Available since 1.3.5.** Some Archive.org downloads require an account. You can still use public downloads without signing in.
 
 - **Native PS5 app:** open **App settings → Archive.org** (or **Settings → Archive.org** in another interface).
 - **PS5 browser or paired device:** open **App settings → Archive.org**. In another browser interface, use **Settings → Archive.org**.
@@ -124,7 +124,7 @@ Pause and resume from Downloads as usual. Disconnecting TorBox pauses its unfini
 
 ### TorBox in Orbit Zero
 
-**New in 1.3.5.** Open **Downloads → Download settings → TorBox**, or **Settings → Download settings** in another desktop interface. Connect your API key on the computer, then choose **Download using → TorBox** on a supported game option. Zero downloads to the computer. Choose **This computer** to keep the game there, or a PS5 drive to transfer it. This account connection is separate from the PS5 service’s TorBox connection. Host availability, account limits and file-size limits still apply.
+**Available since 1.3.5.** Open **Downloads → Download settings → TorBox**, or **Settings → Download settings** in another desktop interface. Connect your API key on the computer, then choose **Download using → TorBox** on a supported game option. Zero downloads to the computer. Choose **This computer** to keep the game there, or a PS5 drive to transfer it. This account connection is separate from the PS5 service’s TorBox connection. Host availability, account limits and file-size limits still apply.
 
 ## AkiraBox: verify, then wait
 

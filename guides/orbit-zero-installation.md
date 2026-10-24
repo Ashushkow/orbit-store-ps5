@@ -157,7 +157,7 @@ Zero supplies the compatible Orbit payload automatically; you do not need to fin
 
 Orbit Zero supplies the matching payload automatically. You can also download and select the ELF yourself:
 
-1. On your **computer**, open the official [Orbit Store GitHub Releases page](https://github.com/saawant12/orbit-store-ps5/releases/latest). Under **Assets**, download **`orbit_store.elf`** and its matching **`orbit_store.elf.sha256`** checksum. Use the compatible Orbit Store build supplied with your Orbit Zero release; Zero requires Orbit Store 1.0.0 or later.
+1. On your **computer**, open the official [Orbit Store GitHub Releases page](https://github.com/saawant12/orbit-store-ps5/releases/latest). Under **Assets**, download **`orbit_store.elf`** and its matching **`orbit_store.elf.sha256`** checksum. Use the same release as your Orbit Zero build and [verify the checksum](getting-started.md#verify-the-ps5-files). The matching service is needed for current transfer, DLC and installation features.
 2. Keep Payload Manager or your ELF loader running on the PS5. In Orbit Zero, open **Console**, enter the PS5's local IP address, and expand **Start Orbit on PS5**.
 3. Choose **Payload Manager** or **ELF loader**, then expand **Advanced**. Check the loader port: normally **8084** for Payload Manager or **9021** for an ELF loader.
 4. Select **Choose another ELF** and choose the downloaded **`orbit_store.elf`**.
@@ -193,7 +193,7 @@ After reopening the app, Orbit Zero reconnects to your saved console automatical
 - **Could not reach Orbit on port 34177:** start Orbit using the steps above, check the PS5's current IP address, and check local-network/firewall permission on the computer.
 - **Pairing code is missing:** select **Show code on PS5** and watch for the console notification.
 - **No drives appear:** confirm the destination is connected and available to Orbit on the PS5, then refresh the Console view.
-- **Transfer stopped after sleep:** wake both devices, reconnect the original console, and select **Resume**. Keep the original pairing to resume unfinished transfers. If it holds up the queue, compare [Resume, Cancel and remove partials, and Stop transfer](orbit-zero.md#pause-reconnect-and-clean-up); a transfer ended with **Stop transfer** cannot resume afterward.
+- **Transfer stopped after sleep:** wake both devices, reconnect the original console, and select **Resume**. Keep the partial files. If the console’s address or pairing changed, follow [address and pairing recovery](orbit-zero.md#reconnect-after-an-address-change). If it holds up the queue, compare [Resume, Cancel and remove partials, and Stop transfer](orbit-zero.md#pause-reconnect-and-clean-up); a transfer ended with **Stop transfer** cannot resume afterward.
 
 For new downloads, leave enough computer space for the full file. Keep Orbit Zero open while downloading or transferring.
 
@@ -246,5 +246,3 @@ Select **Updates** in Store’s top navigation, or **Settings → Updates** in t
 When **Update available** appears, select **Download update**. Zero selects the package for your operating system and processor, then checks its size and SHA-256 before offering **Open installer** (Mac/Linux) or **Open ZIP** (Windows). You can cancel an update download without affecting game transfers.
 
 Installation remains your choice. Finish or pause transfers and quit Orbit Zero before replacing it. On Mac, drag the app from the DMG into Applications. On Windows, extract the ZIP into a new folder and launch Orbit Zero.exe. On Ubuntu/Debian, open the DEB with your package installer; other Linux distributions can use the portable archive on GitHub. Your pairing and queue remain saved.
-
-![Orbit Zero Updates with the installed version, automatic checks and Check for updates button](../assets/1.0.5/orbit-zero-updates.jpg)

@@ -48,7 +48,7 @@ Already using Orbit 0.6.0 or later? In the browser version, open **App settings 
 
 Both interfaces use the same service, catalogue, favourites and download queue. The TV app does not need a pairing code on the console. The native **App settings** page includes Download sources, Storage, Pair a device, Game catalogue, Updates and Appearance. **More settings → Open browser version** provides auto-start, payload-manager setup and diagnostics.
 
-To use optional TorBox downloads, connect your account in the browser’s **App settings → Debrid**. Both apps can then use it for supported options. Orbit Zero 1.4.0 also offers a separate computer-side TorBox connection in Download settings. See [TorBox setup](downloads.md#optional-download-through-torbox).
+To use optional TorBox downloads, connect your account in the browser’s **App settings → Debrid**. Both apps can then use it for supported options. Orbit Zero also offers a separate computer-side TorBox connection in Download settings. See [TorBox setup](downloads.md#optional-download-through-torbox).
 
 For account-required Archive.org files, open **App settings → Archive.org** in either PS5 app and sign in. Orbit Zero has its own Archive.org panel under **Downloads → Download settings**. See [Archive.org sign-in](downloads.md#archiveorg-sign-in).
 
