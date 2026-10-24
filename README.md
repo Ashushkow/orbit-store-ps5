@@ -2,7 +2,7 @@
 
 ### A modern, no-BS download manager for PS5.
 
-Orbit runs on your PS5. Browse games, compare their available sources and formats, and download a single file directly to the console or an attached drive. Open the native TV app from your Games row, or pair a phone or computer to manage the same queue over your local network.
+Orbit runs on your PS5. Pick a game, choose its source and format, and Orbit downloads it straight to the console or a drive plugged into it. Use it on your TV with a controller from the Games row, or pair a phone or computer to manage the same downloads over your home network.
 
 When a game finishes downloading, install it without leaving Orbit. Choose **Install on PS5** for a PKG or FPKG. For exFAT, FFPFSC and game folders, Orbit asks ShadowMount to scan for them automatically, if a supported version is running.
 
