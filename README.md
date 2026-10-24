@@ -12,10 +12,6 @@ PS4 game browsing requires **Orbit Store 1.1.0 or later** with its matching nati
 
 > **Also from Orbit: [Orbit Play](https://github.com/saawant12/orbit-play-ps5)** — Stream your jailbroken PS5 to Mac, Windows or Linux over your local network, without PSN sign-in. **Beta available now.**
 
-> **Official channels:** Orbit Store has no official social media accounts. This GitHub repository is our official source for releases, updates and support. Any social media account claiming to officially represent Orbit Store is an impersonator.
-
-> **Always free.** Orbit Store is free to use and will always remain free. We don’t accept donations or payments. Anyone asking for money on our behalf is not affiliated with the project.
-
 <p>
   <a href="assets/1.5.0/native-crossbar-discover.jpg?raw=1"><img src="assets/1.5.0/native-crossbar-discover.jpg" width="48%" alt="Native Crossbar Discover with Bully selected"></a>
   <a href="assets/1.5.0/native-store-game-details.jpg?raw=1"><img src="assets/1.5.0/native-store-game-details.jpg" width="48%" alt="Black Myth: Wukong game details in the native Store interface"></a>
@@ -367,6 +363,10 @@ When reporting a bug, follow the [bug report format](.github/ISSUE_TEMPLATE/bug_
 Orbit Store is free software under the GNU General Public License, version 3 or later. Every release includes the complete source for its payload and native TV app, the corresponding sources of their copyleft components, third-party licence notices and rebuild instructions.
 
 Forks are welcome, as long as they share their source under the same licence. BlackBox is built from Orbit's code but is released without its source; see [BlackBox is built from Orbit Store's code](https://blackboxisorbit.com/).
+
+> **Official channels:** Orbit Store has no official social media accounts. This GitHub repository is our official source for releases, updates and support. Any social media account claiming to officially represent Orbit Store is an impersonator.
+
+> **Always free.** Orbit Store is free to use and will always remain free. We don’t accept donations or payments. Anyone asking for money on our behalf is not affiliated with the project.
 
 ---
 
