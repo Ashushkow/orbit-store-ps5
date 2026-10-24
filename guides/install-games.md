@@ -1,0 +1,48 @@
+# Install games without leaving Orbit
+
+**Coming in 1.5.0.** These controls are prepared for the next release and are not in the published 1.4.0 apps. Use the matching Orbit Store ELF, native app and Orbit Zero from the same release. Refreshing the catalogue alone does not add installation controls.
+
+## Install a downloaded game
+
+1. Finish downloading or transferring the game to your PS5. Orbit extracts ZIP, RAR and 7z downloads first.
+2. Open the completed entry in **Downloads** and choose **Downloaded files** or **Install on PS5**.
+3. If it contains several packages, choose the one you want to install.
+4. Select **Install on PS5** and follow its installation status.
+
+The same controls are available in the browser, native PS5 app and Orbit Zero, in all four interfaces. Downloading and installation have separate progress: a finished download means the files are saved, not that the game is installed.
+
+The PS5 uses its configured installation storage. The downloaded PKG/FPKG stays on the drive you saved it to; choosing a download drive does not choose the installation drive. Allow space for both copies. Orbit's installer does not delete your downloaded files or computer cache. Archive cleanup and Zero's computer-cache cleanup follow their own settings.
+
+Installation needs a compatible PS5 setup. It does not change a game's firmware, licence or jailbreak requirements. Orbit does not launch games or uninstall them.
+
+## Install from Orbit Zero
+
+You can download to **This computer** without a connected PS5. When ready, pair or reconnect your PS5 and choose **Send to PS5**. After the transfer finishes, open **Downloaded files** and choose **Install on PS5**.
+
+Installation runs on the paired PS5, not on your computer. Keep the console awake and its matching Orbit service running. The computer-to-PS5 transfer and installation controls use your local network; downloading new content still requires provider access on the computer.
+
+## exFAT, FFPFSC and game folders
+
+These use ShadowMount instead of the package installer. After a new download or transfer completes, Orbit **automatically requests a scan** when a compatible ShadowMount version is running with its local API enabled. It also handles compatible `.ffpkg` images this way; an `.ffpkg` image is different from an FPKG `.pkg` package.
+
+You do not normally need to run a scan yourself. Orbit checks ShadowMount's inventory before showing the game as registered. A scan request alone is not confirmation that registration succeeded.
+
+If ShadowMount was unavailable, start it, open the completed download's details and choose **Scan with ShadowMount** when offered. Orbit does not start ShadowMount or change its configuration. Older completed downloads are not all rescanned automatically when you update Orbit; use **Library → Scan for games** to look for existing compatible files.
+
+## Add-ons and bundles
+
+Find DLC on **Add-ons**, or use **Add-ons (count)** from a game’s details. See [the DLC guide](add-ons.md) for the content types and download choices.
+
+Review the required base-game edition, title ID and known version requirements before installing DLC. A matching title ID alone does not confirm compatibility, and seeing the base game in Library does not mean its DLC is installed.
+
+For a bundle, select and install each package you intend to use. Orbit does not install the whole bundle automatically, fetch missing game updates or choose the installation order. Activation packages require their content to already be present in the base game.
+
+## If installation needs attention
+
+- **The button is missing:** check the running ELF as well as the app version. The file must have finished reaching the PS5. exFAT images and game folders use ShadowMount, not **Install on PS5**.
+- **The original drive is unavailable:** reconnect the drive containing the downloaded file. Orbit keeps the download's original location rather than selecting a different copy.
+- **The installer reports an error:** follow the message and check space, package compatibility and your jailbreak. The downloaded file is kept for another attempt.
+- **Installation status is unconfirmed:** use **Check installation** when offered and check the PS5 home screen. Orbit does not automatically submit an uncertain installation again after a restart or lost response.
+- **A scanned game is missing:** check ShadowMount's status and the saved file path. See the [Library guide](library.md).
+
+For a report, include the Orbit app and service versions, game or add-on, format, destination and exact installation or scan error. Keep the files while investigating.

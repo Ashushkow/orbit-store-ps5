@@ -131,9 +131,19 @@ Orbit Zero download details also show the full PS5 destination path and the comp
 
 If the file exists but does not appear in Library or on the home screen, check its format and the installation or mounting method supported by your console setup. A finished download is not automatically installed, and ShadowMount may not list every format. PKG and FPKG packages need installing first; see [below](#a-downloaded-pkg-or-fpkg-game-doesnt-appear). If the file is absent, include the app, game, source, format, destination and completion screen in your report; do not delete the queue or remaining files while investigating.
 
+## Add-ons are missing or do not work
+
+Add-ons are coming in **1.5.0**; older apps do not gain the page through a catalogue refresh. Use the matching apps and running PS5 service when that release is available. If the page is empty, enable the relevant sources, clear its filters and refresh the catalogue. A page opened from a game’s details initially shows only that game’s extras.
+
+If a downloaded DLC does not appear in the game, check that its package was installed, then compare the required base-game edition, title ID, region and version. A title-ID match alone does not confirm compatibility. Activation packages need their content already present in the game; bundles require selecting the individual packages to install. Orbit does not fetch missing game updates or install an entire bundle automatically. See [the DLC guide](add-ons.md).
+
 ## A downloaded PKG or FPKG game doesn't appear
 
-PKG and FPKG options are `.pkg` packages, for PS4 or PS5 games. Orbit saves them to the chosen drive's `homebrew` folder; it doesn't install them. ShadowMountPlus doesn't mount packages, so a package won't appear in Library or on the home screen, and **Scan for games** won't find it. Install it with the package installer supported by your PS5 setup, and check that installer's firmware support. PS5 FPKG games currently run only on firmware 11.60 or lower (October 2026); on 12.xx and 13.xx they may install but won't start. Copying a game package to the same folder as Orbit's native app does not register it the way the TV app is registered.
+PKG and FPKG options are `.pkg` packages, for PS4 or PS5 games. Orbit saves them to the chosen drive's `homebrew` folder. In the upcoming **1.5.0** apps, open the completed download’s **Downloaded files**, select the package and choose **Install on PS5**. With Zero, finish transferring it to the PS5 first. Earlier versions need a compatible package installer. ShadowMountPlus does not mount `.pkg` files, so **Scan for games** is not a substitute for installation.
+
+Check installation status separately from download completion. If **Check installation** appears after a restart or lost response, use it and check the PS5 home screen before trying again. Orbit retains the downloaded file if installation fails. See [installation help](install-games.md#if-installation-needs-attention).
+
+Installation through Orbit does not change compatibility. PS5 FPKG games currently run only on firmware 11.60 or lower (October 2026); on 12.xx and 13.xx they may install but won't start. Copying a game package to the same folder as Orbit's native app does not register it the way the TV app is registered.
 
 If the game also offers exFAT or FFPFSC, those are mounted by ShadowMountPlus without installing. See [which format to pick](downloads.md#which-format-to-pick).
 
@@ -142,6 +152,8 @@ If you report a problem, include the title ID (`CUSA` for PS4, `PPSA` for PS5), 
 ## Share a diagnostic report
 
 Open **App settings → Diagnostics → View diagnostics**, then **Copy diagnostic report**. If automatic copying is unavailable, Orbit shows selectable report text. Reports omit pairing codes, access tokens, download links, game names and paths. Nothing is sent automatically.
+
+The upcoming **1.5.0** apps also let you save a report as a file. On the TV app, choose **More settings → Save diagnostic report**, then a drive. In Zero, choose **Download settings → Export log**. Zero includes the PS5 report when connected. These exports omit game titles, filenames, folders, links, passwords and tokens; attach the saved file yourself when reporting a problem.
 
 ![App settings with local diagnostics](../assets/0.9.0/desktop-diagnostics.jpg)
 

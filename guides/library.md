@@ -25,11 +25,17 @@ Library uses the inventory reported by ShadowMount, while Browse uses Orbit’s 
 
 To locate a completed Orbit Store download, open **Downloads → Finished → Location** in the browser or native app. That saved path is separate from the ShadowMount inventory. Orbit Zero download details show the PS5 destination and the computer path while the cached copy remains; see [where downloads are saved](downloads.md#where-downloads-are-saved).
 
-Use the PS4 package installation method supported by your PS5 setup. Library actions appear only when the provider supports them. See [PS4 games on PS5](downloads.md#ps4-games-on-ps5) before choosing a download.
+The upcoming **1.5.0** apps add **Install on PS5** to completed PKG/FPKG downloads, including PS4 games. Earlier versions need a compatible package installer. Installation is separate from Library’s mount controls; see [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
+
+## DLC and installed games
+
+The upcoming 1.5.0 **Add-ons** page is a separate collection. Finding the base game in Library does not mark its DLC as installed or confirm that an add-on matches its edition or version. Check the add-on’s requirements and its own installation status in Downloads. See [the DLC guide](add-ons.md).
 
 ## Refresh or scan
 
 **Refresh library** reads the current inventory. It does not scan, mount or install games. **Scan for games** asks ShadowMount to discover sources and may register or mount them after you confirm.
+
+In the upcoming **1.5.0** apps, a newly completed exFAT, FFPFSC or game-folder download or transfer automatically requests a scan when a compatible ShadowMount version is running. Orbit checks registration separately. If ShadowMount was unavailable, start it and use **Scan with ShadowMount** in the download’s details when offered. Older completed downloads are not all rescanned automatically on upgrade.
 
 If Library is unavailable, start a compatible ShadowMount version and enable its local API. Available actions depend on your ShadowMount version and the selected game file.
 

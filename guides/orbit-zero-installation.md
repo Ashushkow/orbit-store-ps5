@@ -173,7 +173,9 @@ If you have already paired this console, Zero restores that pairing when it conn
 
 ### Check your connection and storage
 
-When the status changes to **Connected**, your available PS5 drives appear under **Storage**. In Browse, use **Platform** to choose PS4, PS5 or both. Open a game, choose a source and destination, and start the download. PS4 packages use the same transfer controls; [installing a PS4 game](downloads.md#ps4-games-on-ps5) is a separate step on your PS5. **Downloads** shows the computer download and PS5 transfer separately.
+When the status changes to **Connected**, your available PS5 drives appear under **Storage**. In Browse, use **Platform** to choose PS4, PS5 or both. Open a game, choose a source and destination, and start the download. PS4 packages use the same transfer controls. **Downloads** shows the computer download and PS5 transfer separately.
+
+**Coming in 1.5.0:** after the files reach the console, open **Downloads → Downloaded files** and choose **Install on PS5** for a PKG/FPKG. Use the matching desktop app and PS5 service. Compatible exFAT, FFPFSC and game folders automatically request a ShadowMount scan when it is running. See [installing downloaded games](install-games.md).
 
 ![Full-screen Orbit Zero Console after pairing, showing Connected, download preference and available storage](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/assets/orbit-zero-development/connect-ready.jpg)
 

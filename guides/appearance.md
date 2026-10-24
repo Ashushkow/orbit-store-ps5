@@ -158,6 +158,12 @@ In **Orbit Zero**, Store's top-bar **Appearance**, **Language** and **Updates** 
 
 The layouts use the same available games and enabled sources. Browse still provides search and filters; Downloads still manages the queue. Scroll through longer lists or grids to reveal more games.
 
+## Add-ons in 1.5.0
+
+The upcoming release adds **Add-ons** after Browse in every interface, across the browser, native PS5 app and Orbit Zero. It uses the layout’s existing search and filter controls. Crossbar gives Add-ons its own icon; Panorama shows the tile caption when selected. Open **Add-ons (count)** from a game’s details to see extras for that game.
+
+Changing interfaces does not change add-on availability, download progress or installation status. See [the DLC guide](add-ons.md) for content types and requirements. The screenshots above show earlier releases and do not yet show the Add-ons page.
+
 ## Where your choice is saved
 
 Confirming an interface saves it for that app or browser. Native Orbit, the PS5 browser, a paired phone and Orbit Zero can each use a different layout. They do not sync appearance choices with one another.

@@ -84,7 +84,7 @@ Keep **both devices awake** and Orbit Zero open until the transfer finishes. By 
 
 The **Computer** preference chooses where downloads run; it does not change your router or block the PS5's internet access for you.
 
-PS4 PKG/FPKG downloads follow the same computer-to-PS5 route. The PS5 does not need internet for the transfer, but saving a package does not install it. Use the PS4 package installation method supported by your console setup. See [PS4 games on PS5](downloads.md#ps4-games-on-ps5). Orbit’s apps still run on PS5, not PS4 consoles.
+PS4 PKG/FPKG downloads follow the same computer-to-PS5 route. The PS5 does not need internet for the transfer. In the upcoming **1.5.0** apps, choose **Install on PS5** from the completed download; the command uses your local network and installs the file already on the console. Earlier versions need a compatible package installer. Installation does not change a game’s compatibility or online requirements. See [installing downloaded games](install-games.md) and [PS4 games on PS5](downloads.md#ps4-games-on-ps5). Orbit’s apps still run on PS5, not PS4 consoles.
 
 ## Optional: use Orbit's native app on the PS5
 
