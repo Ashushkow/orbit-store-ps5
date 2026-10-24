@@ -1,6 +1,6 @@
 # Find and download a game
 
-Orbit’s current catalogue includes **1,731 games: 1,095 PS5 games and 636 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Each platform edition has its own game page; open it to choose from its available sources and formats. The selection depends on which sources you enable.
+Orbit’s current catalogue includes **1,831 games: 1,100 PS5 games and 731 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Each platform edition has its own game page; open it to choose from its available sources and formats. The selection depends on which sources you enable.
 
 ## Browse and choose
 
@@ -36,7 +36,7 @@ PS4 support starts with **Orbit Store 1.1.0**, **native app 1.4.0** and **Orbit 
 
 1. Open **Browse → Platform → PS4**. Choose **All platforms** to see PS4 and PS5 together.
 2. Open a game and check its **PS4** label, title ID, region and source notes. PS4 title IDs begin with `CUSA`; PS5 IDs begin with `PPSA`. Editions for different platforms stay separate, even when their names match.
-3. Choose a **PKG** or **FPKG** option, its source and the destination drive. Both use a `.pkg` file; the format label describes the available package. A PS4 label does not imply a frame-rate patch, DLC, or compatibility with every PS5 setup. Check the specific option’s notes.
+3. Choose a download option, its source and the destination drive. **PKG** and **FPKG** options use a `.pkg` file. Some games also offer a single **ZIP**, **RAR** or **7z** archive, which Orbit 1.2.0 or later extracts after downloading. A PS4 label does not imply a frame-rate patch, DLC, or compatibility with every PS5 setup. Check the specific option’s notes.
 4. Follow the provider steps below. Orbit Zero can download and transfer these files while the PS5 has no internet access.
 
 Files go to the selected drive’s `homebrew` folder, including `/data/homebrew/` for internal storage. A completed transfer saves the package; it does not install the game. Use the PS4 package installation method supported by your PS5 setup and check its game and firmware requirements. The instructions for installing Orbit’s own `PPSA99177.ffpkg` TV app do not install a downloaded game package.
