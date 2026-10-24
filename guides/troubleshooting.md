@@ -2,19 +2,21 @@
 
 Settings paths below use the default Store layout. In the browser’s other interfaces, use the [Settings page equivalents](appearance.md#find-settings-after-switching).
 
-## I see two Orbit icons
+## Opening and updating Orbit
+
+### I see two Orbit icons
 
 That's normal if you use both PS5 versions. The icon in **Games** is the TV app from `PPSA99177.ffpkg`. The icon in **Media** is the browser version, added when `orbit_store.elf` runs. Both use the same downloads, favourites and service settings. Appearance is saved separately for each app or browser.
 
 If the Media icon won't open, see the next section. If the Games icon won't open, see [The native TV app will not open or start Orbit](#the-native-tv-app-will-not-open-or-start-orbit).
 
-## Orbit or its icon does not open
+### Orbit or its icon does not open
 
 Start the Orbit payload through your manager, then reopen the Media-tab icon. The icon opens a running Orbit server and cannot start a stopped payload. If the icon was deleted, starting Orbit recreates it. Keep Orbit’s saved data when updating.
 
 From another device, use `http://<ps5-ip>:34177/` on the same local network. Keep that port private to your LAN.
 
-## The native TV app will not open or start Orbit
+### The native TV app will not open or start Orbit
 
 The Games-row app needs **kstuff and ShadowMountPlus**. Check that `PPSA99177.ffpkg` is in `/data/homebrew/` and let ShadowMountPlus register it. Keep only one FFPKG or folder installation.
 
@@ -26,7 +28,11 @@ If ShadowMount reports **TitleDir bridge unavailable**, its app-registration bri
 
 If a TV app update still opens the previous version, close the app first. Restart the console and jailbreak when convenient so ShadowMountPlus can remount the replacement. The TV app and service have separate versions.
 
-## Orbit shows BlackBox's icon, can't connect or is missing after BlackBox
+### An update says Orbit is already running
+
+The replacement was saved for the next start. Open **App settings → Update / reinstall** (or **Settings → Updates**) and compare **Running** with **Saved for next start**. In 1.5.0, use **Restart Orbit** with your ELF loader running on port 9021. On older versions, choose **Stop Orbit to restart**, then launch the saved `/data/orbit-store/orbit_store.elf` or a synced manager copy. Pairing and the queue stay saved. A manually imported old ELF starts that older copy unless you replace it.
+
+### Orbit shows BlackBox's icon, can't connect or is missing after BlackBox
 
 BlackBox's builds up to v1.0.6 use Orbit's title ID, `ORBT00001`. If you installed one of them, Orbit's Media-tab icon may show BlackBox's logo, fail with "127.0.0.1 could not reach", or not appear at all. Removing BlackBox's payload alone doesn't fix this, because its app files stay on the console. These steps come from users who fixed it ([#42](https://github.com/saawant12/orbit-store-ps5/issues/42), [#39](https://github.com/saawant12/orbit-store-ps5/issues/39)).
 
@@ -45,37 +51,15 @@ You need FTP access to the PS5, for example `ftpsrv` from your payload manager a
 
 If Orbit still shows BlackBox's icon, open a bug report with your firmware, your Orbit version and what you deleted.
 
-## An update says Orbit is already running
+## Finding and downloading games
 
-The replacement was saved for the next start. Open **App settings → Update / reinstall** (or **Settings → Updates**) and compare **Running** with **Saved for next start**. In 1.5.0, use **Restart Orbit** with your ELF loader running on port 9021. On older versions, choose **Stop Orbit to restart**, then launch the saved `/data/orbit-store/orbit_store.elf` or a synced manager copy. Pairing and the queue stay saved. A manually imported old ELF starts that older copy unless you replace it.
+### A game or image is missing
 
-## AkiraBox does not enter Downloads
+Check the enabled Sources and clear Browse’s filters. Then try **App settings → Game catalogue → Refresh catalogue**. Use the latest matching apps; PS4 support starts with service 1.1.0, native app 1.4.0 and Orbit Zero 1.1.0. Builds without PS4 support use a PS5-compatible catalogue. Select **Platform → All platforms** or **PS4**, and check the running service version as well as the installed app version.
 
-Use the latest matching Orbit Store or Orbit Zero apps. AkiraBox requires **1.2.0 or later**. Open the file page from Orbit, complete verification and wait a few seconds without pressing Download. Orbit captures the ready link; avoid advertisements and popup buttons. If the session expires, return to Orbit and open the provider step again. For a paused or failed job, use **Refresh download link**. In Zero, the PS5 can stay disconnected while you refresh a computer download’s link; reconnect it when you are ready to transfer.
+Artwork comes from external URLs. Orbit tries an available fallback when the primary fails. Network/DNS restrictions or unavailable host images can still prevent artwork from loading. Some dates and other metadata remain missing; corrections arrive through catalogue updates. Undated games appear after dated games in release-date sorting.
 
-## Archive.org reports HTTP 401, 403 or 404
-
-Some files need an Archive.org account. Follow [Archive.org sign-in](downloads.md#archiveorg-sign-in) in the app handling the download, then retry. The PS5 service and Orbit Zero keep separate account sessions. If the source page says the item was removed or is unavailable, signing in will not restore it; choose another source. An HTTP code alone does not prove which case applies.
-
-## Archive needs a password
-
-Orbit automatically tries the [known source passwords](../README.md#automatic-archive-extraction). If the archive needs a different one, choose **Enter archive password**, enter the source’s password exactly, then **Retry extraction**. Keep the downloaded archive and enough free space for its extracted files. A corrupt or unsupported archive can still fail with the correct password.
-
-## Vikingfile does not enter Downloads
-
-Update both PS5 apps to the latest matching release and enable Vikingfile in Sources. Select the desired option and drive, open its download page on PS5, complete verification and wait without pressing Download. Orbit captures the matching link and returns automatically. For computer downloads in Orbit Zero 1.4.0 or later, complete verification and wait without pressing Download in its provider window too. Verification happens on the PS5 even if you initiated it on your phone.
-
-If the session times out, the provider page changes or the browser restarts, return to Orbit and try that option again. Cancel an existing session before starting another. A file that does not match the selected option is not queued. Provider links may become unavailable.
-
-## Internal storage or an M.2 SSD is missing
-
-If the drive disappeared after updating to 0.9.0, install **Orbit 1.0.0 or later**, restart the download service and refresh storage. Native app users should also update the TV app to **1.3.0 or later**, which includes the fixed service. Replacing the FFPKG alone does not replace a service that is already running.
-
-An available drive appears even if its `homebrew` folder has not been created yet. Orbit creates the folder when needed and checks actual write access when a download starts or resumes. If the destination cannot be written, the download stops and existing partial data is kept.
-
-If the drive still does not appear, include your firmware, Orbit and ShadowMount versions and a fresh diagnostic report in your bug report.
-
-## A download fails or is slow
+### A download fails or is slow
 
 - **Provider returned a page:** update Orbit, restart it and retry from Downloads. For browser-only Vikingfile options, repeat the provider step. Orbit still rejects an actual error or verification page returned instead of file data.
 - **Provider throttling:** let the retry delay finish. Orbit honours the provider’s Retry-After response.
@@ -86,7 +70,35 @@ If the drive still does not appear, include your firmware, Orbit and ShadowMount
 
 Parallel connections can help only when supported by the host and file identity. Provider speed limits, network conditions and drive performance still apply.
 
-## An Orbit Zero transfer is stuck after sleep or disconnection
+### Vikingfile does not enter Downloads
+
+Update both PS5 apps to the latest matching release and enable Vikingfile in Sources. Select the desired option and drive, open its download page on PS5, complete verification and wait without pressing Download. Orbit captures the matching link and returns automatically. For computer downloads in Orbit Zero 1.4.0 or later, complete verification and wait without pressing Download in its provider window too. Verification happens on the PS5 even if you initiated it on your phone.
+
+If the session times out, the provider page changes or the browser restarts, return to Orbit and try that option again. Cancel an existing session before starting another. A file that does not match the selected option is not queued. Provider links may become unavailable.
+
+### AkiraBox does not enter Downloads
+
+Use the latest matching Orbit Store or Orbit Zero apps. AkiraBox requires **1.2.0 or later**. Open the file page from Orbit, complete verification and wait a few seconds without pressing Download. Orbit captures the ready link; avoid advertisements and popup buttons. If the session expires, return to Orbit and open the provider step again. For a paused or failed job, use **Refresh download link**. In Zero, the PS5 can stay disconnected while you refresh a computer download’s link; reconnect it when you are ready to transfer.
+
+### Archive.org reports HTTP 401, 403 or 404
+
+Some files need an Archive.org account. Follow [Archive.org sign-in](downloads.md#archiveorg-sign-in) in the app handling the download, then retry. The PS5 service and Orbit Zero keep separate account sessions. If the source page says the item was removed or is unavailable, signing in will not restore it; choose another source. An HTTP code alone does not prove which case applies.
+
+### Archive needs a password
+
+Orbit automatically tries the [known source passwords](../README.md#automatic-archive-extraction). If the archive needs a different one, choose **Enter archive password**, enter the source’s password exactly, then **Retry extraction**. Keep the downloaded archive and enough free space for its extracted files. A corrupt or unsupported archive can still fail with the correct password.
+
+### Internal storage or an M.2 SSD is missing
+
+If the drive disappeared after updating to 0.9.0, install **Orbit 1.0.0 or later**, restart the download service and refresh storage. Native app users should also update the TV app to **1.3.0 or later**, which includes the fixed service. Replacing the FFPKG alone does not replace a service that is already running.
+
+An available drive appears even if its `homebrew` folder has not been created yet. Orbit creates the folder when needed and checks actual write access when a download starts or resumes. If the destination cannot be written, the download stops and existing partial data is kept.
+
+If the drive still does not appear, include your firmware, Orbit and ShadowMount versions and a fresh diagnostic report in your bug report.
+
+## Orbit Zero transfers
+
+### An Orbit Zero transfer is stuck after sleep or disconnection
 
 Wake the computer and PS5, keep the original destination connected, and reconnect in **Console**. Start Orbit on the PS5 if its service stopped. Keep the computer partial file, then select **Resume** on the interrupted transfer. If the PS5’s IP address or pairing changed, follow [address and pairing recovery](orbit-zero.md#reconnect-after-an-address-change). Orbit checks the saved files before continuing; it does not start every paused transfer automatically.
 
@@ -102,29 +114,13 @@ For a transfer already created on the PS5, cancellation and stopping need a resp
 
 Keep both devices awake while transferring. See [transfer recovery and cleanup](orbit-zero.md#pause-reconnect-and-clean-up) for the differences between stopping, deleting partials and clearing completed computer copies.
 
-## I removed a download but still have its computer cache
+### I removed a download but still have its computer cache
 
 In Orbit Zero, open **Downloads → Recover downloads** and choose the completed `.cache` file. Keep its original name and folder. Review the matching game and destination, add it back to the queue, then select **Resume**. See [cache recovery](orbit-zero.md#recover-a-completed-computer-download) for checks and limits.
 
-## I cannot find a setting after changing interface
+## Library, installing and DLC
 
-Crossbar, Cinema and Panorama use a **Settings** page in the browser and Orbit Zero. In Zero, Appearance, Language and Updates move there from Store’s top bar. The native app also calls its settings page **Settings** in these layouts, keeping the same sections inside. See the [settings map](appearance.md#find-settings-after-switching).
-
-## My interface choice switches back or is not remembered
-
-Select **Keep** before the 15-second confirmation countdown ends. **Switch back**, or not answering in time, restores the previous interface. To return to the default yourself, choose **Store** in Appearance and confirm it.
-
-Each app or browser saves its own appearance. A phone, native app and desktop app can use different layouts. Browser site-data clearing, private browsing or opening a different IP/hostname may reset the choice. If it still resets after confirmation on normal launches, report the app version, chosen interface and steps. See [where your choice is saved](appearance.md#where-your-choice-is-saved).
-
-For less movement, choose **Appearance → Motion → Reduced**. Cinema and Panorama also offer **Plain black** instead of background artwork behind menus or pages.
-
-## A game or image is missing
-
-Check the enabled Sources and clear Browse’s filters. Then try **App settings → Game catalogue → Refresh catalogue**. Use the latest matching apps; PS4 support starts with service 1.1.0, native app 1.4.0 and Orbit Zero 1.1.0. Builds without PS4 support use a PS5-compatible catalogue. Select **Platform → All platforms** or **PS4**, and check the running service version as well as the installed app version.
-
-Artwork comes from external URLs. Orbit tries an available fallback when the primary fails. Network/DNS restrictions or unavailable host images can still prevent artwork from loading. Some dates and other metadata remain missing; corrections arrive through catalogue updates. Undated games appear after dated games in release-date sorting.
-
-## A completed download is missing from Library
+### A completed download is missing from Library
 
 For downloads handled by Orbit Store, check **Downloads → Finished → Location** in the browser or native app. Use a file manager to check that exact saved path on the selected drive. Extracted downloads may be a folder containing several files. The recorded path remains in history even if a file is later moved or deleted.
 
@@ -132,13 +128,7 @@ Orbit Zero download details also show the full PS5 destination path and the comp
 
 If the file exists but does not appear in Library or on the home screen, check its format and the installation or mounting method supported by your console setup. A finished download is not automatically installed, and ShadowMount may not list every format. PKG and FPKG packages need installing first; see [below](#a-downloaded-pkg-or-fpkg-game-doesnt-appear). If the file is absent, include the app, game, source, format, destination and completion screen in your report; do not delete the queue or remaining files while investigating.
 
-## Add-ons are missing or do not work
-
-Add-ons are available in **1.5.0**; older apps do not gain the page through a catalogue refresh. Use matching apps and the running PS5 service from the same release. If the page is empty, enable the relevant sources, clear its filters and refresh the catalogue. A page opened from a game’s details initially shows only that game’s extras.
-
-If a downloaded DLC does not appear in the game, check that its package was installed, then compare the required base-game edition, title ID, region and version. A title-ID match alone does not confirm compatibility. Activation packages need their content already present in the game; bundles require selecting the individual packages to install. Orbit does not fetch missing game updates or install an entire bundle automatically. See [the DLC guide](add-ons.md).
-
-## A downloaded PKG or FPKG game doesn't appear
+### A downloaded PKG or FPKG game doesn't appear
 
 PKG and FPKG options are `.pkg` packages, for PS4 or PS5 games. Orbit saves them to the chosen drive's `homebrew` folder. In **1.5.0** and later, open the completed download’s **Downloaded files**, select the package and choose **Install on PS5**. With Zero, finish transferring it to the PS5 first. Earlier versions need a compatible package installer. ShadowMountPlus does not mount `.pkg` files, so **Scan for games** is not a substitute for installation.
 
@@ -150,7 +140,29 @@ If the game also offers exFAT or FFPFSC, those are mounted by ShadowMountPlus wi
 
 If you report a problem, include the title ID (`CUSA` for PS4, `PPSA` for PS5), source, format, destination, app versions, any error code from the installer, and whether it fails during the computer download, PS5 transfer or package installation. Do not share temporary signed links. See [PS4 games on PS5](downloads.md#ps4-games-on-ps5).
 
-## Share a diagnostic report
+### Add-ons are missing or do not work
+
+Add-ons are available in **1.5.0**; older apps do not gain the page through a catalogue refresh. Use matching apps and the running PS5 service from the same release. If the page is empty, enable the relevant sources, clear its filters and refresh the catalogue. A page opened from a game’s details initially shows only that game’s extras.
+
+If a downloaded DLC does not appear in the game, check that its package was installed, then compare the required base-game edition, title ID, region and version. A title-ID match alone does not confirm compatibility. Activation packages need their content already present in the game; bundles require selecting the individual packages to install. Orbit does not fetch missing game updates or install an entire bundle automatically. See [the DLC guide](add-ons.md).
+
+## Interface and settings
+
+### I cannot find a setting after changing interface
+
+Crossbar, Cinema and Panorama use a **Settings** page in the browser and Orbit Zero. In Zero, Appearance, Language and Updates move there from Store’s top bar. The native app also calls its settings page **Settings** in these layouts, keeping the same sections inside. See the [settings map](appearance.md#find-settings-after-switching).
+
+### My interface choice switches back or is not remembered
+
+Select **Keep** before the 15-second confirmation countdown ends. **Switch back**, or not answering in time, restores the previous interface. To return to the default yourself, choose **Store** in Appearance and confirm it.
+
+Each app or browser saves its own appearance. A phone, native app and desktop app can use different layouts. Browser site-data clearing, private browsing or opening a different IP/hostname may reset the choice. If it still resets after confirmation on normal launches, report the app version, chosen interface and steps. See [where your choice is saved](appearance.md#where-your-choice-is-saved).
+
+For less movement, choose **Appearance → Motion → Reduced**. Cinema and Panorama also offer **Plain black** instead of background artwork behind menus or pages.
+
+## Reporting a problem
+
+### Share a diagnostic report
 
 Open **App settings → Diagnostics → View diagnostics**, then **Copy diagnostic report**. If automatic copying is unavailable, Orbit shows selectable report text. Reports omit pairing codes, access tokens, download links, game names and paths. Nothing is sent automatically.
 
