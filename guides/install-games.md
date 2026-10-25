@@ -1,6 +1,6 @@
 # Install games without leaving Orbit
 
-**Available in 1.5.0.** Use the matching Orbit Store ELF, native app and Orbit Zero from the same release. Refreshing the catalogue alone does not add installation controls.
+**Available in 1.5.0 and later.** Use the matching Orbit Store ELF, native app and Orbit Zero from the same release. Refreshing the catalogue alone does not add installation controls.
 
 ## Install a downloaded game
 
@@ -11,7 +11,9 @@
 
 The same controls are available in the browser, native PS5 app and Orbit Zero, in all four interfaces. Downloading and installation have separate progress: a finished download means the files are saved, not that the game is installed.
 
-The PS5 uses its configured installation storage. The downloaded PKG/FPKG stays on the drive you saved it to; choosing a download drive does not choose the installation drive. Allow space for both copies. Orbit's installer does not delete your downloaded files or computer cache. Archive cleanup and Zero's computer-cache cleanup follow their own settings.
+The PS5 uses its configured installation storage. Choosing a download drive does not choose the installation drive. Allow space for both copies during installation. Downloaded PKG/FPKG files stay on the drive by default.
+
+In **1.6.0**, enable **App settings → Storage → Installed packages** to delete a downloaded package after installation succeeds. This is off by default. If installation fails or the file changed after it was checked, Orbit keeps it. This setting does not delete Zero’s computer copy or extracted non-package files. Archive cleanup and Zero’s computer-cache cleanup have their own settings.
 
 Installation needs a compatible PS5 setup. It does not change a game's firmware, licence or jailbreak requirements. Orbit does not launch games or uninstall them.
 

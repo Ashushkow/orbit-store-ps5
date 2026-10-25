@@ -1,6 +1,6 @@
 # Find and download a game
 
-Orbit’s current catalogue includes **2,026 games: 1,107 PS5 games and 919 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Each platform edition has its own game page; open it to choose from its available sources and formats. The selection depends on which sources you enable.
+Orbit’s current catalogue includes **2,045 games: 1,107 PS5 games and 938 PS4 games**, with single-file options from Archive.org, Vikingfile and AkiraBox. Each platform edition has its own game page; open it to choose from its available sources and formats. The selection depends on which sources you enable.
 
 Settings paths in this guide use the Store layout. For the browser’s other layouts, see the [Settings page equivalents](appearance.md#find-settings-after-switching).
 
@@ -17,6 +17,14 @@ Switch to **Browse** when you want search and filters. It defaults to **Release 
 ![Orbit Store 1.5.0 Browse with platform, source, format and region filters](../assets/1.5.0/store-browse.jpg)
 
 *Use filters to find options that fit your drive and preferred format. Sizes reflect the download option you choose.*
+
+In 1.6.0, Source and Format allow multiple selections. Use **Installed games** to hide games already installed or saved on a PS5 drive. This uses the connected console’s library; it does not treat a computer-only copy as installed.
+
+### Game tags
+
+Use **Tags** for **PlayStation exclusive**, **Local co-op**, **Split-screen**, **Open world**, **Story-driven**, **Soulslike**, **PSVR supported** and **PSVR2 supported**. Selecting several tags includes games matching any selected tag. Combine them with Platform, Source, Format and the other filters to narrow results.
+
+PlayStation exclusive means no official PC, Xbox or Nintendo version for that game. VR filters include both required and optional VR modes, attached to the relevant PS4 or PS5 edition; check the game details for headset requirements. Tags are reviewed catalogue metadata, and coverage is still expanding. An untagged game is not proof that it lacks a feature.
 
 Save a game from its details page to find it under **Favourites** later; favourites are shared with your paired devices.
 
@@ -175,7 +183,7 @@ Use **Active**, **Finished**, **Failed**, and **Cancelled** to find a transfer. 
 
 *Browser and phone views of an empty queue in Orbit 1.5.0. The native TV app reads the same queue.*
 
-New supported large downloads use up to eight connections. Existing partials retain their original layout. Speed depends on the provider, network and drive. Pause, Resume and Cancel control the whole file.
+Choose **1–64 connections per download** in **App settings → Storage**, with eight as the default. Active PS5 downloads share up to 64 connections. If a provider refuses parallel connections, Orbit retries with fewer. Existing partials retain their original layout. Speed depends on the provider, network and drive. Pause, Resume and Cancel control the whole file.
 
 After deleting a cancelled partial, you can start the download again from its game page. If you kept the partial, resume it from Downloads.
 

@@ -22,7 +22,7 @@ The Games and Media versions share the same downloads, favourites and service se
 - A phone or computer on the same local network, if you want to control Orbit from one.
 - For Library management, a compatible ShadowMount v1 local API.
 
-The current release pairs **Orbit Store 1.5.0**, **native app 1.9.1** and **Orbit Zero 1.5.0**.
+The current release pairs **Orbit Store 1.6.0**, **native app 1.10.0** and **Orbit Zero 1.6.0**.
 
 The instructions below use the default Store layout. If you choose another interface, see [where to find its settings](appearance.md#find-settings-after-switching).
 
@@ -182,6 +182,8 @@ You can also verify and replace `/data/homebrew/PPSA99177.ffpkg` manually. Keep 
 The TV app includes a copy of the service, but replacing the app does not replace the service that is already running. Stop Orbit before starting the new copy. If the saved service is newer than the one inside the TV app, opening the app keeps the newer one.
 
 ### Upgrading an older version
+
+**Going back from 1.6.0 to 1.5.0:** finish any download using a connection count other than 1, 2, 4 or 8, or cancel it and delete its entry first. Orbit 1.5.0 cannot read an unfinished download with another count, even if paused or cancelled. It leaves the queue untouched; running 1.6.0 again restores access.
 
 **From beta.2 or earlier:** download the current ELF and replace the existing `orbit_store.elf` in Payload Manager, accepting its overwrite/reinstall prompt. Pause downloads, then stop only the identifiable Orbit process in **Active Processes** and launch the new ELF. If you cannot confidently identify Orbit, restart the console when convenient, run your jailbreak and start the new copy. Keep the Orbit icon and `/data/orbit-store/`, which holds your saved settings and queue. The in-app service update steps above are available from beta.3 onward.
 
