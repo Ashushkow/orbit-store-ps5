@@ -184,10 +184,10 @@ If the console no longer accepts the saved pairing, Zero offers **Pair again and
 
 ## Recover a completed computer download
 
-Use this when a finished computer download still exists but its Downloads entry was removed. Keep the original `.cache` filename and folder.
+Use this when a finished computer download still exists but its Downloads entry was removed. Choose the file under its saved game filename, or an older `.cache` file. Keep the name and folder that Orbit used; recovery of a named file relies on its completion record on this computer.
 
-1. Connect the PS5 and open **Downloads → Recover downloads → Choose cache file**.
-2. Choose the completed Orbit Zero `.cache` file from its original download folder.
+1. Connect the PS5 and open **Downloads → Recover downloads → Choose file**.
+2. Choose the completed Orbit Zero file from its original download folder.
 3. Review the matching **Game and download** and select the **PS5 destination**. For an older cache without a completion record, confirm completeness only if you know the original download finished; matching size alone does not prove that.
 4. Select **Add to queue**. Orbit checks the file and restores the entry paused. Select **Resume** to transfer it without downloading it again.
 

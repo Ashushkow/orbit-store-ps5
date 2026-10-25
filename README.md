@@ -160,7 +160,7 @@ Download on your computer and transfer to your PS5 over your home network. Uncom
 - **Choose where downloads run.** Use **Computer** to download through your computer, or **Prefer PS5** to download directly when the console can reach the source. Save your preference once.
 - **Follow each stage.** See download and PS5 transfer rates and estimated time remaining separately, plus extraction progress for archives, with controls to pause, resume and reconnect.
 - **Recover an interrupted transfer.** Resume after a connection failure, reconnect your PS5 at its new address, or remove a stuck queue entry while keeping its files. [Compare the recovery choices](guides/orbit-zero.md#pause-reconnect-and-clean-up).
-- **Reuse completed computer downloads.** Recover a saved `.cache` file whose queue entry was removed, then transfer it without downloading it again. See [cache recovery](guides/orbit-zero.md#recover-a-completed-computer-download).
+- **Reuse completed computer downloads.** Recover a finished file whose queue entry was removed, including older `.cache` files, then transfer it without downloading it again. See [cache recovery](guides/orbit-zero.md#recover-a-completed-computer-download).
 - **Install after transfer.** Open **Downloaded files** and choose **Install on PS5** once a game or add-on reaches the console. Select each package you want from a bundle.
 - **Export a diagnostic log.** **Download settings → Export log** saves a report for support, including PS5 diagnostics when connected. Titles, filenames, paths, links, passwords and tokens are excluded.
 - **Use your accounts on the computer.** Download settings includes Archive.org sign-in and TorBox for supported sources. Computer accounts are separate from the PS5 service’s accounts.

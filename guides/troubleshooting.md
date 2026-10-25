@@ -116,7 +116,7 @@ Keep both devices awake while transferring. See [transfer recovery and cleanup](
 
 ### I removed a download but still have its computer cache
 
-In Orbit Zero, open **Downloads → Recover downloads** and choose the completed `.cache` file. Keep its original name and folder. Review the matching game and destination, add it back to the queue, then select **Resume**. See [cache recovery](orbit-zero.md#recover-a-completed-computer-download) for checks and limits.
+In Orbit Zero, open **Downloads → Recover downloads → Choose file** and choose the completed game file or older `.cache` file. Keep the name and folder Orbit used; a named file needs its completion record on this computer. Review the matching game and destination, add it back to the queue, then select **Resume**. See [cache recovery](orbit-zero.md#recover-a-completed-computer-download) for checks and limits.
 
 ## Library, installing and DLC
 
