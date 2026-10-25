@@ -166,7 +166,7 @@ For less movement, choose **Appearance → Motion → Reduced**. Cinema and Pano
 
 Open **App settings → Diagnostics → View diagnostics**, then **Copy diagnostic report**. If automatic copying is unavailable, Orbit shows selectable report text. Reports omit pairing codes, access tokens, download links, game names and paths. Nothing is sent automatically.
 
-The **1.5.0** apps also let you save a report as a file. On the TV app, choose **More settings → Save diagnostic report**, then a drive. In Zero, choose **Download settings → Export log**. Zero includes the PS5 report when connected. These exports omit game titles, filenames, folders, links, passwords and tokens; attach the saved file yourself when reporting a problem.
+You can also save a report as a file. In the browser, choose **App settings → Diagnostics → Save diagnostic report**, then a PS5 drive. On the TV app, **App settings → More settings** offers **View diagnostics** and **Save diagnostic report**. In Zero, choose **Download settings → Export log**. Zero includes the PS5 report when connected. These exports omit game titles, filenames, folders, links, passwords and tokens; attach the saved file yourself when reporting a problem.
 
 ![App settings with local diagnostics](../assets/0.9.0/desktop-diagnostics.jpg)
 

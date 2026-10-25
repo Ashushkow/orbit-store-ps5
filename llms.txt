@@ -86,9 +86,9 @@ Updates checks for new desktop versions automatically, downloads the matching OS
 
 ## Languages and support
 
-Orbit Store and Orbit Zero support English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish. Native Orbit follows the PS5 language. Browser App settings → Language sets the device preference. Zero's globe-shaped Language control in Store, or Settings → Language in the other layouts, chooses a language or follows System language. Game metadata and provider pages may retain their original language.
+Orbit Store and Orbit Zero support English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish. Native App settings → Appearance → Language chooses a language, or Automatic follows the PS5 language. Browser App settings → Language sets the device preference. Zero's globe-shaped Language control in Store, or Settings → Language in the other layouts, chooses a language or follows System language. Game metadata and provider pages may retain their original language.
 
-Diagnostics are available locally in browser App settings. Reports exclude pairing codes, access tokens, download links, game names and paths, and are not sent automatically. Bug reports should identify the app and version, game platform/title ID, source, format, destination and failing stage. Display or navigation reports should also name the interface and input method.
+Diagnostics are available locally in browser App settings → Diagnostics and native App settings → More settings. Both can display and save a report to a PS5 drive; Zero Download settings → Export log saves a desktop report and includes PS5 diagnostics when connected. Reports exclude pairing codes, access tokens, download links, game names and paths, and are not sent automatically. Bug reports should identify the app and version, game platform/title ID, source, format, destination and failing stage. Display or navigation reports should also name the interface and input method.
 
 Payload-manager integration and automatic startup are opt-in. Orbit leaves the manager's global Autoload switch unchanged. Keep the console awake during transfers. Physical-console compatibility and game installation depend on the user's setup.
 
@@ -103,6 +103,7 @@ Orbit Store is GPL-3.0-or-later. Releases provide the complete source correspond
 - [Getting started](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/guides/getting-started.md): Choose desktop or PS5 setup, install Orbit, use Payload Manager, update and pair a phone.
 - [Downloads](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/guides/downloads.md): Browse, sources, formats, Vikingfile and AkiraBox steps, archive extraction, saved locations, storage and queue controls.
 - [Appearance](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/guides/appearance.md): Store, Crossbar, Cinema and Panorama previews, switching, confirmation, saved preferences, motion, backgrounds and navigation.
+- [Notifications](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/guides/notifications.md): PS5 alerts, ntfy setup, event choices and troubleshooting.
 - [Library](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/guides/library.md): Inventory labels and compatible ShadowMount actions.
 - [DLC and Add-ons](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/guides/add-ons.md): Add-on browsing, types, base-game requirements, computer-only downloads and bundle installation.
 - [Install downloaded games](https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/guides/install-games.md): Package installation, automatic ShadowMount scans, Zero transfers, DLC bundles and recovery.

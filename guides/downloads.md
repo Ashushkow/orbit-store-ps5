@@ -191,7 +191,7 @@ After deleting a cancelled partial, you can start the download again from its ga
 
 Keep the PS5 awake. Closing the TV app or control browser leaves the download worker running; stopping Orbit interrupts it. Unexpectedly interrupted transfers return paused for review. The **Restart Orbit** action resumes downloads that were active before that controlled restart. Orbit extracts supported archives after downloading. The 1.5.0 apps provide explicit **Install on PS5** controls and automatic ShadowMount scans for newly completed compatible images and folders; see [installing downloaded games](install-games.md). Orbit does not launch games or continue downloading in rest mode.
 
-**Notifications.** On PS5, **Notify me when downloads finish or fail** in Storage settings controls completion and failure notifications. The messages use the console's language. This setting is available in the 1.5.0 TV and browser apps.
+**Notifications.** Open **App settings → Notifications** to choose PS5 alerts, phone/computer alerts through ntfy, or both. Select which download, installation and update events to report. PS5 messages use the console's language. See [notification setup](notifications.md).
 
 ### Simultaneous downloads
 
@@ -221,7 +221,7 @@ USB numbering depends on how the console mounts your drives. Choose by the stora
 
 For downloads handled by Orbit Store, **Downloads → Finished → Location** shows the saved file or extracted folder path in both the browser and native app. This is the recorded save location; it does not check whether someone has since moved or deleted the file, and it does not mean the game is installed or listed by ShadowMount.
 
-Orbit Zero also keeps a computer copy in your chosen [computer download folder](orbit-zero.md#choose-the-computer-download-folder), unless you enable cleanup after transfer. In 1.5.0 and later, **Install on PS5** becomes available after the package reaches the console. The PS5 uses its configured installation storage and keeps the downloaded file on its original drive; see [installation steps](install-games.md).
+Orbit Zero also keeps a computer copy in your chosen [computer download folder](orbit-zero.md#choose-the-computer-download-folder), unless you enable cleanup after transfer. In 1.5.0 and later, **Install on PS5** becomes available after the package reaches the console. The PS5 uses its configured installation storage. The downloaded file stays on its original drive unless **Delete packages after installing** is enabled; see [installation steps](install-games.md).
 
 Orbit Zero download details show **PS5 location** and **Computer location** while the cached copy remains. Files go to the selected drive's `homebrew` folder. Extracted downloads may be a file or a folder containing several files. Zero's **Computer download folder** setting controls new computer downloads; existing partial files stay in their original folder.
 

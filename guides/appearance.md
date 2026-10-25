@@ -147,6 +147,7 @@ Instructions elsewhere in these guides usually name the **Store** controls. The 
 | --- | --- |
 | Sources | **Settings → Download sources** |
 | Storage | **Settings → Storage and downloads** |
+| App settings → Notifications | **Settings → Notifications** |
 | Pair devices | **Settings → Pair devices** |
 | App settings → Appearance / Language / Game catalogue | **Settings → Appearance / Language / Game catalogue** |
 | App settings → Update / reinstall | **Settings → Updates** |

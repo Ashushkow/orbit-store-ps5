@@ -17,7 +17,7 @@ Explore **2,045 games: 1,107 PS5 games and 938 PS4 games**, plus **542 DLCs and 
 
 <div align="center">
 
-[Download Orbit](https://github.com/saawant12/orbit-store-ps5/releases/latest) · [Orbit Zero](#orbit-zero-for-mac-windows-and-linux) · [Get started](guides/getting-started.md) · [Download guide](guides/downloads.md) · [DLC guide](guides/add-ons.md) · [Library guide](guides/library.md) · [Appearance guide](guides/appearance.md) · [Troubleshooting](guides/troubleshooting.md) · [Bug report format](.github/ISSUE_TEMPLATE/bug_report.md) · [Report a bug](https://github.com/saawant12/orbit-store-ps5/issues/new?template=bug_report.md) · [Request a feature](https://github.com/saawant12/orbit-store-ps5/issues/new?template=feature_request.md)
+[Download Orbit](https://github.com/saawant12/orbit-store-ps5/releases/latest) · [Orbit Zero](#orbit-zero-for-mac-windows-and-linux) · [Get started](guides/getting-started.md) · [Download guide](guides/downloads.md) · [DLC guide](guides/add-ons.md) · [Library guide](guides/library.md) · [Appearance guide](guides/appearance.md) · [Notifications](guides/notifications.md) · [Troubleshooting](guides/troubleshooting.md) · [Bug report format](.github/ISSUE_TEMPLATE/bug_report.md) · [Report a bug](https://github.com/saawant12/orbit-store-ps5/issues/new?template=bug_report.md) · [Request a feature](https://github.com/saawant12/orbit-store-ps5/issues/new?template=feature_request.md)
 
 </div>
 
@@ -122,7 +122,7 @@ Choose sources, set your default drive, pair a phone and refresh your game catal
 
 ### Orbit in your language
 
-Orbit Store and Orbit Zero support **English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish**. The native app follows your PS5’s system language. In the browser version, use **App settings → Language** in Store, or **Settings → Language** in the other interfaces, to choose a language for that device, or leave it on **Automatic** to follow the browser.
+Orbit Store and Orbit Zero support **English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish**. In the native app, choose a language in **App settings → Appearance**, or keep **Automatic** to follow your PS5’s system language. In the browser version, use **App settings → Language** in Store, or **Settings → Language** in the other interfaces, to choose a language for that device, or leave it on **Automatic** to follow the browser.
 
 ![Native Orbit Settings in Hungarian, with translated storage controls](assets/1.0.5/native-settings-hu.png)
 
@@ -232,7 +232,7 @@ Keep the PS5 awake while downloading. Closing the storefront leaves downloads ru
 
 ## Updating or reinstalling Orbit
 
-**Update Orbit in one step.** In 1.5.0, choose **Update Orbit** under the native app’s **App settings → Updates**, or the browser’s **App settings → Update / reinstall** (**Settings → Updates** in other layouts). It updates the TV app and download service together. With an ELF loader running on port 9021, Orbit restarts its service and resumes the downloads interrupted by that restart. Reopen the TV app to use its update. If no loader is available, follow Orbit’s manual start instructions. **Restart Orbit** restarts only the service. See the [update guide](guides/getting-started.md#update-the-tv-app).
+**Update Orbit in one step.** In 1.5.0 and later, choose **Update Orbit** under the native app’s **App settings → Updates**, or the browser’s **App settings → Update / reinstall** (**Settings → Updates** in other layouts). It updates the TV app and download service together. With an ELF loader running on port 9021, Orbit restarts its service and resumes the downloads interrupted by that restart. Reopen the TV app to use its update. If no loader is available, follow Orbit’s manual start instructions. **Restart Orbit** restarts only the service. See the [update guide](guides/getting-started.md#update-the-tv-app).
 
 To restore a deleted Orbit icon, start Orbit through your payload manager. Your paired devices, source choices and download queue stay saved.
 

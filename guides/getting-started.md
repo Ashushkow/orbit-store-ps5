@@ -62,7 +62,7 @@ Already using Orbit 0.6.0 or later? In the browser version, open **App settings 
 
 *Sources are your choice. Turning one off later hides its options and pauses unfinished downloads without deleting files. Interface previews use example storage data.*
 
-Both interfaces use the same service, catalogue, favourites and download queue. The TV app does not need a pairing code on the console. The native **App settings** page includes Download sources, Storage, Pair a device, Game catalogue, Updates and Appearance. **More settings → Open browser version** provides auto-start, payload-manager setup and diagnostics.
+Both interfaces use the same service, catalogue, favourites and download queue. The TV app does not need a pairing code on the console. The native **App settings** page includes Download sources, Storage, Notifications, Pair a device, Game catalogue, Updates and Appearance. **More settings** lets you view or save a diagnostic report; **Open browser version** provides auto-start and payload-manager setup.
 
 You can also get Orbit through Payload Manager's source list; see the [optional Payload Manager feed](#optional-payload-manager-feed).
 
@@ -70,7 +70,7 @@ You can also get Orbit through Payload Manager's source list; see the [optional 
 
 ### Choose a default drive
 
-Open **App settings → Storage** in the native app. Select an available drive, or **Choose automatically** to prefer external storage when available. Selecting another drive for a download makes that drive the default. An unavailable drive must be chosen again explicitly; Orbit does not silently redirect an active transfer.
+Open **App settings → Storage** in the native app or browser. Select an available drive, or **Choose automatically** to prefer external storage when available. Selecting another drive for a download makes that drive the default. An unavailable drive must be chosen again explicitly; Orbit does not silently redirect an active transfer.
 
 A drive connected to your phone or computer is not a PS5 destination. Attach your external drive to the console; Orbit uses its `homebrew` folder when available.
 
@@ -78,7 +78,7 @@ A drive connected to your phone or computer is not a PS5 destination. Attach you
 
 Orbit Store and Orbit Zero support **11 interface languages**: English, German, Spanish, French, Hungarian, Italian, Dutch, Polish, Brazilian Portuguese, Russian and Turkish.
 
-- **Native TV app:** Orbit follows your PS5’s system language when it starts. Change the console language in **Settings → System → Language → Console Language**, then close and reopen Orbit. Unsupported languages use English.
+- **Native TV app:** open **App settings → Appearance → Language** (or **Settings → Appearance** in another interface). Choose a language or **Automatic** to follow the PS5’s system language. Your choice is saved in Orbit; unsupported system languages use English.
 - **Browser, phone or computer:** open **App settings → Language** in Store, or **Settings → Language** in the other interfaces. Choose a language, or **Automatic** to follow your browser’s preference. The interface reloads after you choose. This preference is saved for that browser; it does not change other paired devices or the PS5’s system language.
 - **Orbit Zero desktop:** select the globe-shaped **Language** button in Store’s top bar, or **Settings → Language** in the other interfaces. Choose a language or **System language**. The choice is saved on that computer, and changing it keeps your downloads running.
 
